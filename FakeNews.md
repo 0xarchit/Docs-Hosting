@@ -192,7 +192,7 @@ The application uses two backend services with complementary roles:
 | `/health` | GET | Server health check |
 | `/docs` | GET | API documentation (Swagger UI) |
 
-**Uptime Monitoring**: [Backend Uptime Checker](https://backend.0xarchit.is-a.dev)
+**Uptime Monitoring**: [Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
 
 !!! :icon-info: How it works
 1. The frontend calls the Node.js `/api/verify-news` endpoint
