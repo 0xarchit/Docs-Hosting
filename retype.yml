@@ -10,3 +10,5 @@ links:
     link: https://docs.0xarchit.is-a.dev
 footer:
   copyright: "&copy; Copyright {{ year }} 0xArchit. All rights reserved."
+exclude:
+  - /CODE_OF_CONDUCT.md
