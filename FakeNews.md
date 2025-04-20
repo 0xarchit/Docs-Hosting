@@ -1,15 +1,53 @@
+---
+label: Fake News Detector
+icon: shield-check
+description: "Comprehensive overview of the AI-powered Fake News Detector project architecture, components, and implementation details."
+order: 90
+tags: [react, ai, typescript, gemini]
+---
+
 # Fake News Detector
+
+![](https://img.shields.io/badge/React-TypeScript-blue)
+![](https://img.shields.io/badge/PWA-Enabled-green)
+![](https://img.shields.io/badge/AI-Gemini-orange)
+
+> [!TIP] 
+> Explore how this AI-powered application is structured, built, and deployed to help combat misinformation.
 
 ## Overview
 
-The Fake News Detector is a web application that leverages AI to verify the authenticity of news articles. It provides users with a trust score, analysis, potential biases, and recommendations based on the submitted news content or URL.
+The Fake News Detector is a progressive web application that leverages AI to verify the authenticity of news articles. It provides users with a trust score, detailed analysis, potential biases, and recommendations based on the submitted news content or URL.
+
++++ Features
+* :icon-verified: **Trust Score Analysis** with detailed explanations
+* :icon-link: Supports both **Text Input** and **URL Submission**
+* :icon-shield: Category-specific verification algorithms
+* :icon-device-mobile: **Progressive Web App** for cross-platform use
+* :icon-clock: Client-side caching of previous verifications
++++ Demo
+```bash
+# Live Demo
+https://news-verification-system.pages.dev
+```
++++ Screenshots
+![Landing Page](Public/FakeNews/landing.png)
+
+![Main Interface](Public/FakeNews/main.png)
+
+![App Install PopUp](Public/FakeNews/install.png)
++++
 
 ## Architecture
 
-The project follows a modern frontend-centric architecture:
+The project follows a modern frontend-centric architecture with AI-powered backend services:
+
+:icon-stack: **Technology Stack Overview:**
 
 1. **Frontend**: React application built with TypeScript and served as a Progressive Web App (PWA)
 2. **API Integration**: Connects to a Gemini-powered API service for news verification
+
+### System Diagram
 
 ```mermaid
 graph TD
@@ -90,21 +128,25 @@ graph TD
 
 ### Main Pages
 
-1. **Landing Page**: Marketing-focused page introducing the application with animated sections
-2. **Tool Page**: The functional page where users can submit news for verification
+||| :icon-home: Landing Page
+Marketing-focused page introducing the application with animated sections.
+||| :icon-tools: Tool Page
+The functional page where users can submit news for verification.
+|||
 
 ### Features
 
-- **Progressive Web App**: Can be installed on mobile and desktop devices
-- **Responsive Design**: Works across all screen sizes
-- **Caching System**: Stores previous verification results to minimize duplicate API calls
-- **Modern UI**: Animated components using Framer Motion
-- **Input Flexibility**: Accepts both text input and URLs for news verification
-- **Category-Based Analysis**: Customizes verification based on news category
+:icon-check: **Progressive Web App**: Install on any device
+:icon-device-desktop: **Responsive Design**: Works across all screen sizes
+:icon-database: **Smart Caching**: Stores previous verification results
+:icon-paintbrush: **Modern UI**: Animated components using Framer Motion
+:icon-server: **Efficient API Integration**: Optimized data transfer
 
 ## Component Breakdown
 
-### NewsVerifierTool
+### :icon-code: Component Details
+
++++ NewsVerifierTool
 This is the main functional component that allows users to verify news. It manages:
 - Form state for news input
 - API communication
@@ -112,133 +154,81 @@ This is the main functional component that allows users to verify news. It manag
 - Error handling
 - Loading states
 - Cache management for previously verified content
-
-### NewsForm
++++ NewsForm
 Handles user input for:
 - Text or URL input toggle
 - News content submission
 - Category selection
 - Form validation
-
-### Results
++++ Results
 Displays verification results including:
 - Trust score with color coding
 - Detailed analysis
 - Source verification with clickable links
 - Potential biases
 - Recommendations
-
-### Navigation
++++ Navigation
 Responsive navigation component that:
 - Adapts to scroll position
 - Shows different styling based on current route
 - Collapses to a mobile menu on smaller screens
-
-### AddToHomeScreen
++++ AddToHomeScreen
 PWA installation component with:
 - Button variant for landing page
 - Modal variant for prompting installation
 - Handles installation events and user responses
++++
 
-## Backend Endpoints and Working
+## Backend & API Endpoints
 
-### Node.js Gemini API Server
+The application uses two backend services with complementary roles:
 
-- **POST `/api/verify-news`**  
-  Accepts:  
-  ```json
-  {
-    "text": "news text or url",
-    "category": "category string"
-  }
-  ```
-  
-  Returns:  
-  ```json
-  {
-    "trustScore": 85,
-    "analysis": "This news article appears to be authentic based on cross-referencing with reliable sources.",
-    "sourceandrelated": "Verified against sources: https://example.com/news1, https://example.com/news2. The article correctly reports on the key facts of the event.",
-    "potentialBiases": ["Slight political leaning in terminology", "Emphasis on certain stakeholders"],
-    "recommendation": "The article can be considered reliable, though readers should be aware of the slight bias in presentation."
-  }
-  ```
-  - Forwards the request to the FastAPI backend to fetch recent news context.
-  - Uses Gemini AI to analyze the user input against the fetched news context and category.
-  - Returns a JSON object with fields: `trustScore`, `analysis`, `sourceandrelated`, `potentialBiases`, `recommendation`.
+### :icon-server: Node.js Gemini API Server
 
-- **GET `/api/health`**  
-  Returns health and environment status of the Node.js server.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/verify-news` | POST | Main endpoint for news verification |
+| `/api/health` | GET | Server health check |
 
-#### How it works:
-1. Receives user news and category.
-2. Calls FastAPI backend to get recent news context.
-3. Constructs a prompt for Gemini AI including user input and context.
-4. Parses Gemini's JSON response and returns it to the frontend.
+#### Example API Request
 
----
+```json
+{
+  "text": "news text or url",
+  "category": "category string"
+}
+```
 
-### FastAPI News Context Backend
+#### Example API Response
 
-- **POST `/api/analyze`**  
-  Accepts:  
-  ```json
-  {
-    "news_text": "news text or url",
-    "category": "category string"
-  }
-  ```
-  
-  Returns:  
-  ```json
-  {
-    "results": [
-      {
-        "headline": "Example News Headline",
-        "description": "Brief description of the news article content...",
-        "source_link": "https://example.com/news-article",
-        "date": "2023-06-15"
-      },
-      {
-        "headline": "Another Related News Article",
-        "description": "Description of another related article...",
-        "source_link": "https://example.org/related-news",
-        "date": "2023-06-14"
-      }
-      // Additional results...
-    ]
-  }
-  ```
-  - Searches DuckDuckGo for recent news links related to the input and category.
-  - Fetches and parses up to 4 news articles for headline, description, source link, and date.
-  - Returns a list of news context objects.
+```json
+{
+  "trustScore": 85,
+  "analysis": "This news article appears to be authentic based on cross-referencing with reliable sources.",
+  "sourceandrelated": "Verified against sources: https://example.com/news1, https://example.com/news2. The article correctly reports on the key facts of the event.",
+  "potentialBiases": ["Slight political leaning in terminology", "Emphasis on certain stakeholders"],
+  "recommendation": "The article can be considered reliable, though readers should be aware of the slight bias in presentation."
+}
+```
 
-- **GET `/health`**  
-  Returns a simple health check JSON.
+### :icon-server: FastAPI News Context Backend
 
-- **GET `/docs`**  
-  Auto-generated interactive API documentation (Swagger UI) provided by FastAPI.  
-  Allows you to explore and test all available endpoints directly from the browser.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/analyze` | POST | Provides news context for AI verification |
+| `/health` | GET | Server health check |
+| `/docs` | GET | API documentation (Swagger UI) |
 
-#### How it works:
-1. Receives news text and category.
-2. Performs a DuckDuckGo search for relevant news.
-3. Fetches and parses metadata from top results.
-4. Returns structured news context for use by the Gemini server.
-
----
-
-**Integration Flow:**
-- The frontend calls the Node.js `/api/verify-news` endpoint.
-- Node.js server fetches news context from FastAPI `/api/analyze`.
-- Node.js server uses Gemini AI to verify and analyze the news.
-- The result is returned to the frontend for display.
-
----
+!!! :icon-info: How it works
+1. The frontend calls the Node.js `/api/verify-news` endpoint
+2. Node.js server fetches news context from FastAPI `/api/analyze`
+3. Node.js server uses Gemini AI to verify and analyze the news
+4. The result is returned to the frontend for display
+!!!
 
 ## Implementation Details
 
-### Caching Implementation
+### :icon-database: Caching Implementation
 ```typescript
 // Global cache persists between route changes
 const globalNewsDataCache: { [key: string]: any } = {};
@@ -251,7 +241,7 @@ function App() {
 }
 ```
 
-### API Integration
+### :icon-cloud: API Integration
 ```typescript
 export async function verifyNews(source: string, category: string) {
   const apiUrl = import.meta.env.VITE_GEMINIAPIURL;
@@ -270,7 +260,7 @@ export async function verifyNews(source: string, category: string) {
 }
 ```
 
-### Response Schema
+### :icon-git-pull-request: Response Schema
 
 ```typescript
 interface VerificationResult {
@@ -284,7 +274,7 @@ interface VerificationResult {
 
 ## Tech Stack
 
-### Frontend
+### :icon-browser: Frontend
 - **React**: UI library for building component-based interfaces
 - **TypeScript**: For type safety and improved developer experience
 - **Tailwind CSS**: For utility-first styling
@@ -293,7 +283,7 @@ interface VerificationResult {
 - **Vite**: Fast build tool and development server
 - **PWA**: Service workers and manifest for installable web app functionality
 
-### Tools & Infrastructure
+### :icon-tools: Tools & Infrastructure
 - **ESLint**: Code quality and consistency
 - **PostCSS**: CSS processing with plugins
 - **Cloudflare Pages/Vercel**: Potential deployment platforms
@@ -324,12 +314,7 @@ VitePWA({
 
 ## Installation and Local Development
 
-### Prerequisites
-
-- Node.js 16+
-- npm or yarn
-
-### Setup
+### :icon-desktop-download: Project Setup
 
 ```bash
 # Clone the repository
@@ -348,16 +333,15 @@ echo "VITE_GEMINIAPIURL=https://your-api-endpoint.com/verify" > .env
 npm run dev
 ```
 
-### Environment Variables
+### :icon-gear: Environment Variables
 
-#### Required Variables
 ```
 VITE_GEMINIAPIURL=https://your-api-endpoint.com/verify
 ```
 
 ## Usage Guide
 
-### Basic Usage
+### :icon-play: Basic Usage
 
 1. **Visit the Website**: Go to the deployed application
 2. **Select Input Type**: Choose between text input or URL
@@ -366,7 +350,7 @@ VITE_GEMINIAPIURL=https://your-api-endpoint.com/verify
 5. **Submit**: Click "Verify News"
 6. **Review Results**: Examine the trust score, analysis, and recommendations
 
-### Installing as PWA
+### :icon-desktop-download: Installing as PWA
 
 1. Visit the website in a compatible browser (Chrome, Edge, Safari, etc.)
 2. Look for the "Install App" button or the installation prompt
@@ -400,7 +384,7 @@ fake-news-detector/
 
 ## Development Guidelines
 
-### Code Style
+### :icon-code-square: Code Style
 
 - Use TypeScript for type safety
 - Follow functional React patterns with hooks
@@ -408,7 +392,7 @@ fake-news-detector/
 - Use semantic HTML elements for better accessibility
 - Follow the project's ESLint configuration
 
-### Project Structure
+### :icon-project: Project Structure
 
 - Keep components focused on a single responsibility
 - Use custom hooks for shared logic
@@ -418,42 +402,50 @@ fake-news-detector/
 
 ## Performance Optimizations
 
-- **PWA Caching**: Critical assets are cached for offline use
-- **Client-side Caching**: Previous verification results are stored to minimize API calls
-- **Lazy Loading**: Components and routes could be lazy-loaded for faster initial load
-- **Animations**: Optimized with hardware acceleration where possible
-- **Build Optimization**: Production builds are optimized for size and performance
-
-## Security Considerations
-
-- API keys are stored securely in environment variables
-- Input validation on user-submitted content
-- HTTPS is required for PWA functionality
-- Cross-site request security headers
+:icon-zap: **PWA Caching**: Critical assets are cached for offline use  
+:icon-database: **Client-side Caching**: Previous verification results are stored to minimize API calls  
+:icon-download: **Lazy Loading**: Components and routes could be lazy-loaded for faster initial load  
+:icon-paintbrush: **Animations**: Optimized with hardware acceleration where possible  
+:icon-gear: **Build Optimization**: Production builds are optimized for size and performance
 
 ## Future Enhancements
 
-1. **User Accounts**: Allow users to save verification history and preferences
-2. **Browser Extensions**: Create browser extensions for verifying news directly on news websites
-3. **Multiple Languages**: Support verification in different languages
-4. **Explanation Features**: Add more detailed explanations of verification methods
-5. **Historical Context**: Provide historical context for news topics to improve verification accuracy
-6. **Citation Verification**: Verify citations and references within news articles
+||| :icon-person: User Accounts 
+Allow users to save verification history and preferences
+||| :icon-browser: Browser Extensions
+Create browser extensions for verifying news directly on news websites
+||| :icon-globe: Multiple Languages
+Support verification in different languages
+||| :icon-light-bulb: Explanation Features
+Add more detailed explanations of verification methods
+||| :icon-history: Historical Context
+Provide historical context for news topics to improve verification accuracy
+||| :icon-checklist: Citation Verification
+Verify citations and references within news articles
+|||
 
 ## Troubleshooting
 
-### Common Issues
+### :icon-bug: Common Issues
 
-1. **API Connection Errors**: Check your internet connection and API endpoint configuration
-2. **Installation Issues**: Make sure your browser supports PWA installation and you're using HTTPS
-3. **Rendering Problems**: Clear browser cache if you encounter UI display issues
-4. **Form Submission Errors**: Ensure all required fields are completed before submission
++++ API Connection Errors
+Check your internet connection and API endpoint configuration
++++ Installation Issues
+Make sure your browser supports PWA installation and you're using HTTPS
++++ Rendering Problems
+Clear browser cache if you encounter UI display issues
++++ Form Submission Errors
+Ensure all required fields are completed before submission
++++
 
-## Contact
+## Contact & Support
 
 For questions or assistance, please contact:
-- GitHub: [0xarchit](https://github.com/0xarchit)
+
+:::buttons
+[GitHub :icon-mark-github:](https://github.com/0xarchit){target="_blank"} [Email :icon-mail:](mailto:mail@0xarchit.is-a.dev)
+:::
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+:icon-law: This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

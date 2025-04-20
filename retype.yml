@@ -1,14 +1,52 @@
 input: .
 output: .retype
 url: https://docs.0xarchit.is-a.dev
+
+# Branding and theme
 branding:
   title: 0xArchit
   label: Docs
-  favicon: "/0xarchit.ico"
-links:
-  - text: Getting Started
-    link: https://docs.0xarchit.is-a.dev
+  logo: "/Public/0xarchit.webp"
+  logoDark: "/Public/0xarchit.webp"
+  favicon: "/Public/0xarchit.ico"
+
+# Search configuration
+search:
+  mode: full
+  minChars: 2
+  maxResults: 20
+  placeholder: "Search docs..."
+
+markdown:
+  mermaid: true
+
+# Theme configuration
+theme:
+  light: lumen
+  dark: carbon
+defaultTheme: auto
+
+# Metadata
+meta:
+  title: "0xArchit Projects Documentation"
+  description: "Technical documentation, project guides, and research by 0xArchit"
+
+# Footer
 footer:
-  copyright: "&copy; Copyright {{ year }} 0xArchit. All rights reserved."
+  copyright: "&copy; {{ year }} 0xArchit. All rights reserved."
+  links:
+    - text: GitHub
+      link: https://github.com/0xarchit
+    - text: LinkedIn
+      link: https://www.linkedin.com/in/0xarchit/
+    - text: Twitter
+      link: https://x.com/0xarchit
+
+# Consolidated social links (removed duplicated content from social section)
+outbound:
+  newWindow: true
+
+poweredByRetype: true
 exclude:
-  - /CODE_OF_CONDUCT.md
+  - "README.md"
+  - "CODE_OF_CONDUCT.md"
