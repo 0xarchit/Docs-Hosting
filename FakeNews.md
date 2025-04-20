@@ -192,6 +192,8 @@ The application uses two backend services with complementary roles:
 | `/health` | GET | Server health check |
 | `/docs` | GET | API documentation (Swagger UI) |
 
+**Uptime Monitoring**: [Backend Uptime Checker](https://backend.0xarchit.is-a.dev)
+
 !!! :icon-info: How it works
 1. The frontend calls the Node.js `/api/verify-news` endpoint
 2. Node.js server fetches news context from FastAPI `/api/analyze`
@@ -290,8 +292,8 @@ VitePWA({
 ### :icon-desktop-download: Project Setup
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/fake-news-detector.git
+# Clone the repository (Currently project is private*)
+git clone https://github.com/0xarchit/fake-news-detector.git 
 
 # Navigate to the project directory
 cd fake-news-detector
