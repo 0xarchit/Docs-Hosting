@@ -144,40 +144,13 @@ The functional page where users can submit news for verification.
 
 ## Component Breakdown
 
-### :icon-code: Component Details
+### Components
 
-+++ NewsVerifierTool
-This is the main functional component that allows users to verify news. It manages:
-- Form state for news input
-- API communication
-- Results display
-- Error handling
-- Loading states
-- Cache management for previously verified content
-+++ NewsForm
-Handles user input for:
-- Text or URL input toggle
-- News content submission
-- Category selection
-- Form validation
-+++ Results
-Displays verification results including:
-- Trust score with color coding
-- Detailed analysis
-- Source verification with clickable links
-- Potential biases
-- Recommendations
-+++ Navigation
-Responsive navigation component that:
-- Adapts to scroll position
-- Shows different styling based on current route
-- Collapses to a mobile menu on smaller screens
-+++ AddToHomeScreen
-PWA installation component with:
-- Button variant for landing page
-- Modal variant for prompting installation
-- Handles installation events and user responses
-+++
+- **NewsVerifierTool**: Manages form state, API calls, results display, errors, loading states, and caching
+- **NewsForm**: Handles input toggle (text/URL), news submission, and validation
+- **Results**: Displays trust score, analysis, source links, biases, and recommendations
+- **Navigation**: Responsive nav bar with mobile collapse behavior
+- **AddToHomeScreen**: PWA install button and modal with event handling
 
 ## Backend & API Endpoints
 
@@ -409,34 +382,21 @@ fake-news-detector/
 :icon-gear: **Build Optimization**: Production builds are optimized for size and performance
 
 ## Future Enhancements
-
-||| :icon-person: User Accounts 
-Allow users to save verification history and preferences
-||| :icon-browser: Browser Extensions
-Create browser extensions for verifying news directly on news websites
-||| :icon-globe: Multiple Languages
-Support verification in different languages
-||| :icon-light-bulb: Explanation Features
-Add more detailed explanations of verification methods
-||| :icon-history: Historical Context
-Provide historical context for news topics to improve verification accuracy
-||| :icon-checklist: Citation Verification
-Verify citations and references within news articles
-|||
+- :icon-person: User Accounts – Allow users to save verification history and preferences
+- :icon-browser: Browser Extensions – Create browser extensions for verifying news directly on news websites
+- :icon-globe: Multiple Languages – Support verification in different languages
+- :icon-light-bulb: Explanation Features – Add more detailed explanations of verification methods
+- :icon-history: Historical Context – Provide historical context for news topics to improve verification accuracy
+- :icon-checklist: Citation Verification – Verify citations and references within news articles
 
 ## Troubleshooting
 
-### :icon-bug: Common Issues
+### Common Issues
 
-+++ API Connection Errors
-Check your internet connection and API endpoint configuration
-+++ Installation Issues
-Make sure your browser supports PWA installation and you're using HTTPS
-+++ Rendering Problems
-Clear browser cache if you encounter UI display issues
-+++ Form Submission Errors
-Ensure all required fields are completed before submission
-+++
+- **API Connection Errors**: Check internet connection and API endpoint configuration
+- **Installation Issues**: Ensure HTTPS and PWA support in your browser
+- **Rendering Problems**: Clear browser cache to resolve UI issues
+- **Form Submission Errors**: Make sure all required form fields are completed
 
 ## Contact & Support
 
