@@ -137,9 +137,13 @@ The functional page where users can submit news for verification.
 ### Features
 
 :icon-check: **Progressive Web App**: Install on any device
+
 :icon-device-desktop: **Responsive Design**: Works across all screen sizes
+
 :icon-database: **Smart Caching**: Stores previous verification results
+
 :icon-paintbrush: **Modern UI**: Animated components using Framer Motion
+
 :icon-server: **Efficient API Integration**: Optimized data transfer
 
 ## Component Breakdown
