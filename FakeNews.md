@@ -64,7 +64,7 @@ graph TD
     
     subgraph "Backend Services"
         C -->|User Input| G[Gemini Node.js Server]
-        G -->|User Data| H[FastAPI Backend]
+        G -->|User Data| H[FastAPI News Context Backend]
         H -->|Processed Output| G
         G -->|Final AI Output| C
     end
@@ -82,7 +82,7 @@ sequenceDiagram
     participant Frontend as React Frontend
     participant Cache as Client-side Cache
     participant Gemini as Gemini Node.js Server
-    participant FastAPI as FastAPI Backend
+    participant FastAPI as FastAPI News Context Backend
     participant GeminiAI as Gemini AI API
     
     User->>Frontend: Enter news text/URL & category
@@ -192,7 +192,9 @@ The application uses two backend services with complementary roles:
 | `/health` | GET | Server health check |
 | `/docs` | GET | API documentation (Swagger UI) |
 
-**Uptime Monitoring**: [Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
+**Uptime Monitoring**:
+[1. Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
+[ 2. Backup Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
 
 !!! :icon-info: How it works
 1. The frontend calls the Node.js `/api/verify-news` endpoint
@@ -262,6 +264,14 @@ interface VerificationResult {
 - **ESLint**: Code quality and consistency
 - **PostCSS**: CSS processing with plugins
 - **Cloudflare Pages/Vercel**: Potential deployment platforms
+
+### :icon-server: Backend
+- **Node.js & Express**: Main Gemini API server (`Gemini API Server`)
+- **@google/generative-ai**: Gemini AI integration on Node.js
+- **Python & FastAPI**: News-context backend (`FastAPI News Context Server`)
+- **pydantic**: Request validation in FastAPI
+- **aiohttp & BeautifulSoup4**: Fetch and parse news data
+- **uvicorn**: ASGI server for FastAPI
 
 ## PWA Implementation
 
@@ -390,6 +400,7 @@ fake-news-detector/
 - :icon-light-bulb: Explanation Features – Add more detailed explanations of verification methods
 - :icon-history: Historical Context – Provide historical context for news topics to improve verification accuracy
 - :icon-checklist: Citation Verification – Verify citations and references within news articles
+- :icon-dependabot: Machine Learning Model – Implement a custom machine learning model instead of Gemini that trains automatically on search data via this website
 
 ## Troubleshooting
 
