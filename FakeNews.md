@@ -198,7 +198,7 @@ The application uses two backend services with complementary roles:
 
 **Uptime Monitoring**:
 [1. Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
-[ 2. Backup Backend Uptime Checker](https://backend.0xarchit.is-a.dev){target="_blank"}
+[ 2. Backup Backend Uptime Checker](https://api.0xarchit.is-a.dev){target="_blank"}
 
 !!! :icon-info: How it works
 1. The frontend calls the Node.js `/api/verify-news` endpoint
