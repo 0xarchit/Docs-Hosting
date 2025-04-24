@@ -228,7 +228,7 @@ Gemini AI orchestrates the core verification pipeline by:
 - Fetching recent news context from the FastAPI endpoint (`/api/analyze`), which returns parsed headlines, descriptions, sources, and dates.
 - Translating user‑submitted news into English (if needed).
 - Computing text similarity using algorithms such as:
-  - **TF‑IDF + Cosine Similarity**: We vectorize both the user input and each context document to spot overlapping terms and measure relevance.
+  - **TF‑IDF (Term Frequency-Inverse Document Frequency) + Cosine Similarity**: We vectorize both the user input and each context document to spot overlapping terms and measure relevance.
   - **Semantic Embeddings**: Leveraging pre‑trained language models to capture deeper contextual meaning beyond exact term matches.
   - **Keyword & Entity Matching**: Identifying shared entities (names, dates, locations) between the input and context.
 - Aggregating these scores to derive a final **trustScore** (0–100).
