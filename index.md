@@ -27,7 +27,7 @@ I've created this space to share knowledge, specifications, and insights from my
 An AI-powered web application that verifies the authenticity of news articles, providing trust scores and analysis.
 |||
 ||| :icon-mortar-board: [Learn Track](LearnTrack.md)
-An AI-powered web application that verifies the authenticity of news articles, providing trust scores and analysis.
+LearnTrack is a React/TypeScript and FastAPI–based learning management system offering role‑based access, course and assignment management, file uploads, real‑time notifications, and analytics.
 |||
 
 ---
