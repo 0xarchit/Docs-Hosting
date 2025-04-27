@@ -26,6 +26,9 @@ I've created this space to share knowledge, specifications, and insights from my
 ||| :icon-shield-check: [Fake News Detector](FakeNews.md)
 An AI-powered web application that verifies the authenticity of news articles, providing trust scores and analysis.
 |||
+||| :icon-mortar-board: [Learn Track](LearnTrack.md)
+An AI-powered web application that verifies the authenticity of news articles, providing trust scores and analysis.
+|||
 
 ---
 
