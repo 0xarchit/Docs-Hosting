@@ -444,9 +444,6 @@ VITE_API_URL=http://localhost:5000
 
 # Backend (optional)
 DATABASE_URL=sqlite:///./database.db
-JWT_SECRET=your_jwt_secret_key
-JWT_ALGORITHM=HS256
-JWT_EXPIRATION=86400
 ```
 
 ## :icon-terminal: Advanced Usage

@@ -24,7 +24,7 @@ I've created this space to share knowledge, specifications, and insights from my
 ## :icon-rocket: Featured Projects
 
 ||| :icon-shield-check: [Fake News Detector](FakeNews.md)
-An AI-powered web application that verifies the authenticity of news articles, providing trust scores and analysis.
+Fake News Detector is a React/TypeScript PWA that integrates a Gemini‑powered API and FastAPI backend to verify news authenticity, provide trust scores, and analyze biases.
 |||
 ||| :icon-mortar-board: [Learn Track](LearnTrack.md)
 LearnTrack is a React/TypeScript and FastAPI–based learning management system offering role‑based access, course and assignment management, file uploads, real‑time notifications, and analytics.
