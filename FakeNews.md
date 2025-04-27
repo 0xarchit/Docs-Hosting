@@ -28,6 +28,8 @@ The Fake News Detector is a progressive web application that leverages AI to ver
 +++ Demo
 ```bash
 # Live Demo
+https://news-verification-system.pages.dev
+or
 https://news-verify.0xarchit.is-a.dev
 ```
 +++ Screenshots
