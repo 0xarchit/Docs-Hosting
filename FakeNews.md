@@ -2,8 +2,8 @@
 label: Fake News Detector
 icon: shield-check
 description: "Comprehensive overview of the AI-powered Fake News Detector project architecture, components, and implementation details."
-order: 90
-tags: [react, ai, typescript, gemini]
+order: 99
+tags: [React, NodeJS, Typescript, FastAPI, AI, Gemini]
 ---
 
 # Fake News Detector

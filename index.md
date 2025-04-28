@@ -29,6 +29,12 @@ Fake News Detector is a React/TypeScript PWA that integrates a Gemini‑powered 
 ||| :icon-mortar-board: [Learn Track](LearnTrack.md)
 LearnTrack is a React/TypeScript and FastAPI–based learning management system offering role‑based access, course and assignment management, file uploads, real‑time notifications, and analytics.
 |||
+||| :icon-file: [Scroll2PDF](Scroll2PDF.md)
+Scroll2PDF is a PyQt6 desktop application that automatically scrolls through a webpage, captures and stitches screenshots, and exports them as a multi-page PDF.
+|||
+||| :icon-code: [CodeArc](CodeArc.md)
+CodeArc is a programming-centric AI chatbot companion for web and mobile with local history storage, custom API key support, and Gemini‑powered intelligence.
+|||
 
 ---
 

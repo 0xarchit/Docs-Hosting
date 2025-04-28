@@ -51,4 +51,3 @@ poweredByRetype: true
 exclude:
   - "README.md"
   - "CODE_OF_CONDUCT.md"
-  - "LearnTrack.md"
