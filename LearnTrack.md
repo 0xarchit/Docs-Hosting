@@ -3,7 +3,7 @@ label: LearnTrack
 icon: mortar-board
 description: "Complete documentation for the LearnTrack learning management system with role-based access, course management, and analytics."
 order: 98
-tags: [React, Typescript, FastAPI, Sqlite]
+tags: [React, Typescript, FastAPI, Sqlite, Docker]
 ---
 
 # LearnTrack
