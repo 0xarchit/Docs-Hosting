@@ -10,7 +10,7 @@ tags: [Python, PyQt6, Screenshot, PDF]
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue) ![PyQt6](https://img.shields.io/badge/PyQt6-blue) ![PDF](https://img.shields.io/badge/PDF-export-red)
 
-:icon-mark-github: **GitHub**: [0xarchit/Scroll-To-Pdf](https://github.com/0xarchit/Scroll-To-Pdf)
+:icon-mark-github: **GitHub**: [0xarchit/Scroll-To-Pdf](https://github.com/0xarchit/Scroll-To-Pdf){target="_blank"}
 
 A desktop application built with PyQt6 that automatically scrolls through a webpage, captures screenshots, stitches them, and exports the result as a multi-page PDF.
 

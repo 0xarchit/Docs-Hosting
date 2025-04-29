@@ -12,10 +12,16 @@ tags: [React, Typescript, FastAPI, Sqlite]
 ![](https://img.shields.io/badge/FastAPI-Python-green)
 ![](https://img.shields.io/badge/SQLite-Database-orange)
 
-:icon-mark-github: **GitHub**: [0xarchit/LearnTrack](https://github.com/0xarchit/LearnTrack)
+:icon-mark-github: **GitHub**: [0xarchit/LearnTrack](https://github.com/0xarchit/LearnTrack){target="_blank"}
 
 > [!NOTE] 
 > LearnTrack is a comprehensive learning management system designed for educational institutions with role-based access for students, faculty, and administrators.
+> As this project was built using SQLite with basic encryption for a short-duration college project, it has some security vulnerabilities. I plan to improve the security features in future updates.
+
+## :icon-globe: Live Demo
+
+- **Frontend**: [https://learntrack.pages.dev](https://learntrack.pages.dev){target="_blank"} - deployed on Cloudflare Pages
+- **Backend**: [https://learntrack-tunnel.onrender.com](https://learntrack-tunnel.onrender.com/docs){target="_blank"} - deployed using Docker on Render
 
 ## :icon-device-desktop: Screenshots
 
@@ -192,7 +198,6 @@ flowchart TD
 +++ Auth
 * **User State** - Current user object with profile data
 * **Role Management** - Student, faculty, or admin role handling
-* **Token Handling** - JWT storage, renewal, and validation
 +++ Theme
 * **Dark/Light Mode** - Theme preference management
 * **Color Schemes** - Primary and accent color customization

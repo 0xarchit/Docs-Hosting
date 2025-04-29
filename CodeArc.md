@@ -10,7 +10,7 @@ tags: [React, Typescript, Capacitor, Zustand, AI, Gemini]
 
 ![React](https://img.shields.io/badge/React-TypeScript-blue) ![AI](https://img.shields.io/badge/AI-Gemini-orange) ![Capacitor](https://img.shields.io/badge/Capacitor-Mobile-purple)
 
-:icon-mark-github: **GitHub**: [0xarchit/CodeArc](https://github.com/0xarchit/CodeArc)
+:icon-mark-github: **GitHub**: [0xarchit/CodeArc](https://github.com/0xarchit/CodeArc){target="_blank"}
 
 ## :icon-device-desktop: Overview
 
@@ -55,13 +55,13 @@ Your chat history is stored locally on your device or browser, giving you comple
 ---
 
 ## :icon-package: Get Started
-- **Download the App**: [CodeArc Releases](https://github.com/0xarchit/codearc/releases)
-- **Try the Web Version**: [CodeArc Website](https://codearc.pages.dev)
+- **Download the App**: [CodeArc Releases](https://github.com/0xarchit/codearc/releases){target="_blank"}
+- **Try the Web Version**: [CodeArc Website](https://codearc.pages.dev){target="_blank"}
 
 ## :icon-download: Before Downloading
 ### How to Get Your API Key?
 
-1. **Visit** [Google AI Studio](https://aistudio.google.com/app/apikey).
+1. **Visit** [Google AI Studio](https://aistudio.google.com/app/apikey){target="_blank"}.
 2. **Sign in** with your Google account.
 3. **Click** on the **"Create API key"** button.
 4. **Copy** your new API key.
