@@ -21,7 +21,7 @@ tags: [React, Typescript, FastAPI, Sqlite, Docker]
 ## :icon-globe: Live Demo
 
 - **Frontend**: [https://learntrack.pages.dev](https://learntrack.pages.dev){target="_blank"} - deployed on Cloudflare Pages
-- **Backend**: [https://learntrack-tunnel.onrender.com](https://learntrack-tunnel.onrender.com/docs){target="_blank"} - deployed using Docker on Render
+- **Backend**: deployed using Docker on Render
 
 ## :icon-device-desktop: Screenshots
 
