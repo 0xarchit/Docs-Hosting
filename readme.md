@@ -3,6 +3,8 @@
 
 This website hosts the public documentation for my various projects and technical work. I've created this space to share knowledge, specifications, and insights from my development journey.
 
+> https://docs.0xarchit.is-a.dev
+
 ## About the Author
 
 I'm [**Archit Jain** (0xArchit)](https://0xarchit.is-a.dev), a programmer and student in India. I'm passionate about:
