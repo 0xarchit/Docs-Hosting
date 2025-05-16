@@ -16,6 +16,9 @@ tags: [React, Typescript, Capacitor, Zustand, AI, Gemini]
 
 CodeArc is a programming-focused chatbot designed to explain concepts and help you learn, just like a knowledgeable friend. It offers an intuitive and feature-packed experience across both mobile and web platforms.
 
+## :icon-package: Get Started
+- **Download the App**: [CodeArc Releases](https://github.com/0xarchit/codearc/releases){target="_blank"}
+- **Try the Web Version**: [CodeArc Website](https://codearc.pages.dev){target="_blank"}
 ---
 
 ## :icon-rocket: Key Features
@@ -53,10 +56,6 @@ Your chat history is stored locally on your device or browser, giving you comple
 
 
 ---
-
-## :icon-package: Get Started
-- **Download the App**: [CodeArc Releases](https://github.com/0xarchit/codearc/releases){target="_blank"}
-- **Try the Web Version**: [CodeArc Website](https://codearc.pages.dev){target="_blank"}
 
 ## :icon-download: Before Downloading
 ### How to Get Your API Key?
