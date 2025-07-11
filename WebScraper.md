@@ -8,6 +8,12 @@ tags: [Python, Cloudflare, FastAPI, AI, DuckDuckGo, Jina, Groq, PantryCLoud]
 
 # :icon-browser: Web Scraper Collection
 
+![](https://img.shields.io/badge/Cloudflare-orange) ![](https://img.shields.io/badge/Python-3.11-blue) ![](https://img.shields.io/badge/JavaScript-yellow)
+
+:icon-mark-github: **GitHub**: [0xarchit/duckduckgo-webscraper](https://github.com/0xarchit/duckduckgo-webscraper){target="_blank"}
+
+# :icon-browser: Web Scraper Collection
+
 A collection of web scraper/content scrapers with two major approaches:
 
 1. **Python-based DuckDuckGo Scraper**: Uses DuckDuckGo Lite search to fetch top result pages (default 3, customizable), then extracts structured content (titles, descriptions, headings, summaries, links, and more).

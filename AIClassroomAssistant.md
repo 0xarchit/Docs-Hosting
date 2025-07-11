@@ -10,6 +10,8 @@ tags: [AI, Teaching Assistant, FastAPI, WebSocket, TailwindCSS]
 
 ![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/Python-3.11-blue) ![](https://img.shields.io/badge/TailwindCSS-Design-blue) ![](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
+:icon-mark-github: **GitHub**: [0xarchit/Classroom_AI_Assistant](https://github.com/0xarchit/Classroom_AI_Assistant){target="_blank"}
+
 > [!TIP]
 > A multimodal AI assistant system integrating emotion detection, speech processing, and contextual AI responses.
 
