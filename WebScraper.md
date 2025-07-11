@@ -798,7 +798,7 @@ GET https://<your-worker>/?query=your+search+term&key=<your-api-key>
 ### :icon-eye: Live Demo
 
 ```bash
-GET https://pagescrape.0xcloud.workers.dev/?query=web+scraping&key=test
+GET https://webscrape.0xcloud.workers.dev/?key=test&query=your+query
 ```
 > `test` key gives daily 15 queries
 
