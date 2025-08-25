@@ -10,7 +10,9 @@ tags: [Python, Cloudflare, FastAPI, AI, DuckDuckGo, Jina, Groq, PantryCLoud]
 
 ![](https://img.shields.io/badge/Cloudflare-orange) ![](https://img.shields.io/badge/Python-3.11-blue) ![](https://img.shields.io/badge/JavaScript-yellow)
 
-:icon-mark-github: **GitHub**: [0xarchit/duckduckgo-webscraper](https://github.com/0xarchit/duckduckgo-webscraper){target="_blank"}
+**:icon-mark-github: GitHub:** [0xarchit/duckduckgo-webscraper](https://github.com/0xarchit/duckduckgo-webscraper){target="_blank"}  
+**:icon-globe: Live Demo:** [https://duckduckgo-webscraper.onrender.com](https://duckduckgo-webscraper.onrender.com)  
+**:icon-globe: Live Demo:**  [https://webscrape.0xcloud.workers.dev/?key=test&query=](https://webscrape.0xcloud.workers.dev/?key=test&query=)
 
 # :icon-browser: Web Scraper Collection
 
@@ -802,6 +804,3 @@ GET https://webscrape.0xcloud.workers.dev/?key=test&query=your+query
 ```
 > `test` key gives daily 15 queries
 
-## :icon-law: License
-
-MIT License

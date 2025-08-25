@@ -72,7 +72,3 @@ Your chat history is stored locally on your device or browser, giving you comple
 
 - [ ] **Download Chat as PDF**: Soon, you'll be able to save your chat conversations as PDF files for easy sharing and offline access.  
 - [ ] **Update Notification Fix**: Automatic update notifications in the app for a seamless user experience.
-
-
-## :icon-law: License
-:icon-law: This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

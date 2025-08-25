@@ -8,9 +8,7 @@ tags: [React, Typescript, FastAPI, Sqlite, Docker]
 
 # LearnTrack
 
-![](https://img.shields.io/badge/React-TypeScript-blue)
-![](https://img.shields.io/badge/FastAPI-Python-green)
-![](https://img.shields.io/badge/SQLite-Database-orange)
+![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/SQLite-Database-orange)
 
 :icon-mark-github: **GitHub**: [0xarchit/LearnTrack](https://github.com/0xarchit/LearnTrack){target="_blank"}
 
@@ -508,7 +506,3 @@ For questions, assistance, or contributions, please reach out:
 :::buttons
 [GitHub :icon-mark-github:](https://github.com/0xarchit/LearnTrack){target="_blank"} [Email :icon-mail:](mailto:mail@0xarchit.is-a.dev) [LinkedIn :icon-link:](https://www.linkedin.com/in/0xarchit/){target="_blank"}
 :::
-
-## :icon-law: License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

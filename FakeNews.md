@@ -8,9 +8,9 @@ tags: [React, NodeJS, Typescript, FastAPI, AI, Gemini]
 
 # Fake News Detector
 
-![](https://img.shields.io/badge/React-TypeScript-blue)
-![](https://img.shields.io/badge/PWA-Enabled-green)
-![](https://img.shields.io/badge/AI-Gemini-orange)
+![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/PWA-Enabled-green) ![](https://img.shields.io/badge/AI-Gemini-orange)
+
+:icon-mark-github: **GitHub**: [0xarchit/news-verification-system](https://github.com/0xarchit/news-verification-system){target="_blank"}
 
 > [!TIP] 
 > Explore how this AI-powered application is structured, built, and deployed to help combat misinformation.
@@ -452,6 +452,3 @@ For questions or assistance, please contact:
 [GitHub :icon-mark-github:](https://github.com/0xarchit){target="_blank"} [Email :icon-mail:](mailto:mail@0xarchit.is-a.dev)
 :::
 
-## License
-
-:icon-law: This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

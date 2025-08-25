@@ -10,9 +10,10 @@ tags: [FastAPI, Python, Carbon, API, Docker]
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-Python-green) ![Docker](https://img.shields.io/badge/Docker-Containerized-blue) ![Carbon](https://img.shields.io/badge/Carbon-Code_Images-orange)
 
+
+:icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}  
 :icon-globe: **Live Demo**: [https://zeroxcarbon.onrender.com/docs](https://zeroxcarbon.onrender.com/docs){target="_blank"}
 
-:icon-globe: **Github Repo**: [https://github.com/0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}
 
 > [!TIP]
 > A FastAPI service that generates beautiful code images using Carbon.now.sh. Convert your code into shareable JPG images with customizable styling.

@@ -10,9 +10,9 @@ tags: [n8n, AI, Instagram, FastAPI, Automation, Memes]
 
 ![n8n](https://img.shields.io/badge/n8n-Workflow-red) ![AI](https://img.shields.io/badge/AI-Mistral-blue) ![Instagram](https://img.shields.io/badge/Instagram-Auto_Post-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-Carbon_API-green)
 
-:icon-globe: **Github Repo**: [https://github.com/0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}
+:icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}
 
-:icon-globe: **Github Repo**: [https://github.com/0xarchit/n8n-templates](https://github.com/0xarchit/n8n-templates/tree/main/Instagram%20auto%20meme%20post){target="_blank"}
+:icon-globe: **Github**: [0xarchit/n8n-templates](https://github.com/0xarchit/n8n-templates/tree/main/Instagram%20auto%20meme%20post){target="_blank"}
 
 > [!TIP]
 > A complete AI-powered automation system that generates programming memes and posts them to Instagram automatically using n8n workflows and a custom Carbon.now.sh API.
