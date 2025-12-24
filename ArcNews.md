@@ -8,9 +8,8 @@ tags: [React, TypeScript, Cloudflare Workers, D1, FastAPI, Node.js, Puppeteer, S
 
 # ArcNews
 
-![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/Cloudflare-Workers-orange) ![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/Node.js-Puppeteer-brightgreen) ![](https://img.shields.io/badge/DB-D1-orange) ![](https://img.shields.io/badge/Auth-Supabase-black)
-
-[![GitHub stars](https://img.shields.io/github/stars/0xarchit/ArcNews-DashBoard?style=flat-square&logo=github)](https://github.com/0xarchit/ArcNews-DashBoard/stargazers) [![License](https://img.shields.io/github/license/0xarchit/ArcNews-DashBoard?style=flat-square)](LICENSE) [![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ArcNews-DashBoard?style=flat-square)](https://github.com/0xarchit/ArcNews-DashBoard) [![Forks](https://img.shields.io/github/forks/0xarchit/ArcNews-DashBoard?style=flat-square)](https://github.com/0xarchit/ArcNews-DashBoard/network/members) [![Top Language](https://img.shields.io/github/languages/top/0xarchit/ArcNews-DashBoard?style=flat-square)](https://github.com/0xarchit/ArcNews-DashBoard) [![Website Status](https://img.shields.io/website-up-down-green-red/https/arcnews.0xarchit.is-a.dev?style=flat-square)](https://arcnews.0xarchit.is-a.dev)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/ArcNews-DashBoard?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ArcNews-DashBoard?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ArcNews-DashBoard?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ArcNews-DashBoard?style=flat-square) [![Website](https://img.shields.io/website?url=https://arcnews.0xarchit.is-a.dev&style=flat-square)](https://arcnews.0xarchit.is-a.dev){target="_blank"}
 
 
 **:icon-mark-github: GitHub:** [https://github.com/0xarchit/ArcNews-DashBoard/](https://github.com/0xarchit/ArcNews-DashBoard/){target="_blank"}  

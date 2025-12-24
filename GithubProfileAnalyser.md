@@ -8,11 +8,11 @@ tags: [Cloudflare Workers, JavaScript, GitHub API, SVG, AI]
 
 # GitHub Profile Analyzer
 
-![](https://img.shields.io/badge/Cloudflare-Workers-orange) ![](https://img.shields.io/badge/JavaScript-ES2023-yellow) ![](https://img.shields.io/badge/AI-Enabled-blueviolet)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/github-profile-analyzer?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/github-profile-analyzer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/github-profile-analyzer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/github-profile-analyzer?style=flat-square) [![Website](https://img.shields.io/website?url=https://github.0xarchit.is-a.dev&style=flat-square)](https://github.0xarchit.is-a.dev){target="_blank"}
 
-**:icon-mark-github: GitHub:** [0xarchit/github-profile-analyzer](https://github.com/0xarchit/github-profile-analyzer){target="_blank"}  
-**:icon-globe: Live Demo:** [https://git.0xcloud.workers.dev](https://git.0xcloud.workers.dev) 
-
+:icon-mark-github: **GitHub**: [0xarchit/github-profile-analyzer](https://github.com/0xarchit/github-profile-analyzer){target="_blank"}  
+:icon-globe: **Live Demo**: [https://github.0xarchit.is-a.dev](https://github.0xarchit.is-a.dev){target="_blank"}
 > AI Powered Github Profile analyzer and reviewer tool. Gives review based on first 100 repos and only includes those forks in which user has contributions to avoid fake results
 
 Serverless GitHub profile analytics you can deploy in minutes. This project ships:

@@ -8,8 +8,8 @@ tags: [RAG, FastAPI, React, Milvus, Mistral, Gradio, LangChain, ChromaDB, Gemini
 
 # RAG Projects: ChatDoc + AI/ML/GenAI Mentor Chatbot
 
-![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/Milvus-VectorDB-orange) ![](https://img.shields.io/badge/Mistral-Embeddings-blueviolet)
-![](https://img.shields.io/badge/Gradio-UI-yellow) ![](https://img.shields.io/badge/LangChain-Orchestration-lightgrey) ![](https://img.shields.io/badge/ChromaDB-VectorDB-brightgreen) ![](https://img.shields.io/badge/Gemini-LLM-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Milvus](https://img.shields.io/badge/Milvus-VectorDB-00A1EA?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/ChatDoc?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ChatDoc?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ChatDoc?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ChatDoc?style=flat-square) [![Website](https://img.shields.io/website?url=https://chatdoc.0xarchit.is-a.dev&style=flat-square)](https://chatdoc.0xarchit.is-a.dev){target="_blank"}
 
 
 **:icon-mark-github: GitHub:** [0xarchit/ChatDoc](https://github.com/0xarchit/ChatDoc){target="_blank"}  

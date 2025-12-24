@@ -8,27 +8,15 @@ tags: [Chrome Extension, React, TypeScript, Tailwind, Chart.js, GitHub OAuth, Cl
 
 # AlgorithmAce: AI-Powered LeetCode Companion 🚀
 
-<div align="center">
-
-![AlgorithmAce Logo](https://img.shields.io/badge/AlgorithmAce-Chrome%20Extension-orange?style=for-the-badge&logo=google-chrome)
-![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Chrome Extension](https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=google-chrome&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/AlgorithmAce?style=flat-square)  
+![Stars](https://img.shields.io/github/stars/0xarchit/AlgorithmAce?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/AlgorithmAce?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/AlgorithmAce?style=flat-square) [![Website](https://img.shields.io/website?url=https://algorithmace.0xarchit.is-a.dev&style=flat-square)](https://algorithmace.0xarchit.is-a.dev){target="_blank"}
 
 **Enhance your LeetCode experience with AI assistance, friend comparisons, and daily problem notifications**
 
-[⭐ Star on GitHub](https://github.com/0xarchit/AlgorithmAce) | [📖 Documentation](#features) | [🐛 Report Bug](https://github.com/0xarchit/AlgorithmAce/issues)
-
+:icon-mark-github: **GitHub**: [0xarchit/AlgorithmAce](https://github.com/0xarchit/AlgorithmAce){target="_blank"}  
 :icon-globe: **Live Demo**: [https://algorithmace.0xarchit.is-a.dev](https://algorithmace.0xarchit.is-a.dev){target="_blank"}
 
-</div>
-
 ---
-
-:::buttons
-[Repository :icon-mark-github:](https://github.com/0xarchit/AlgorithmAce){target="_blank"}  
-[Releases :icon-tag:](https://github.com/0xarchit/AlgorithmAce/releases){target="_blank"}  
-[Issues :icon-bug:](https://github.com/0xarchit/AlgorithmAce/issues){target="_blank"}
-:::
 
 
 ## 🌟 Overview {#overview}

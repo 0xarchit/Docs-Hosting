@@ -8,11 +8,11 @@ tags: [Cloudflare, Workers, JavaScript, Proxy, DuckDuckGo]
 
 # :icon-globe: ArcArcGo: DuckDuckGo Proxy with Custom Branding
 
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers-orange) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow) ![Proxy](https://img.shields.io/badge/Proxy-DuckDuckGo-blue)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![DuckDuckGo](https://img.shields.io/badge/DuckDuckGo-DE5833?style=flat-square&logo=duckduckgo&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/ArcArcGo?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ArcArcGo?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ArcArcGo?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ArcArcGo?style=flat-square) [![Website](https://img.shields.io/website?url=https://arcarcgo.0xarchit.is-a.dev/&style=flat-square)](https://arcarcgo.0xarchit.is-a.dev/){target="_blank"}
 
-:icon-mark-github: **GitHub**: [0xarchit/ArcArcGo](https://github.com/0xarchit/ArcArcGo){target="_blank"}
-
-:icon-globe: **Live Demo**: [https://arcarcgo.0xarc.workers.dev](https://arcarcgo.0xarc.workers.dev/){target="_blank"}
+:icon-mark-github: **GitHub**: [0xarchit/ArcArcGo](https://github.com/0xarchit/ArcArcGo){target="_blank"}  
+:icon-globe: **Live Demo**: [https://arcarcgo.0xarchit.is-a.dev](https://arcarcgo.0xarchit.is-a.dev/){target="_blank"}
 
 > [!TIP]
 > ArcArcGo is a Cloudflare Worker that acts as a transparent proxy for DuckDuckGo, implementing custom branding and URL rewriting through regex patterns and JavaScript injection.

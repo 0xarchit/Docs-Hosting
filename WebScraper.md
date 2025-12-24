@@ -8,10 +8,11 @@ tags: [Python, Cloudflare, FastAPI, AI, DuckDuckGo, Jina, Groq, PantryCLoud]
 
 # :icon-browser: Web Scraper Collection
 
-![](https://img.shields.io/badge/Cloudflare-orange) ![](https://img.shields.io/badge/Python-3.11-blue) ![](https://img.shields.io/badge/JavaScript-yellow)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/duckduckgo-webscraper?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/duckduckgo-webscraper?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/duckduckgo-webscraper?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/duckduckgo-webscraper?style=flat-square) [![Website](https://img.shields.io/website?url=https://webscraper.0xarchit.is-a.dev&style=flat-square)](https://webscraper.0xarchit.is-a.dev){target="_blank"}
 
 **:icon-mark-github: GitHub:** [0xarchit/duckduckgo-webscraper](https://github.com/0xarchit/duckduckgo-webscraper){target="_blank"}  
-**:icon-globe: Live Demo:** [https://duckduckgo-webscraper.onrender.com](https://duckduckgo-webscraper.onrender.com)  
+**:icon-globe: Live Demo:** [https://webscraper.0xarchit.is-a.dev](https://webscraper.0xarchit.is-a.dev)  
 **:icon-globe: Live Demo:**  [https://webscrape.0xcloud.workers.dev/?key=test&query=](https://webscrape.0xcloud.workers.dev/?key=test&query=)
 
 # :icon-browser: Web Scraper Collection

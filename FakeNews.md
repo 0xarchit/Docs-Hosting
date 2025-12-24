@@ -8,7 +8,8 @@ tags: [React, NodeJS, Typescript, FastAPI, AI, Gemini]
 
 # Fake News Detector
 
-![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/PWA-Enabled-green) ![](https://img.shields.io/badge/AI-Gemini-orange)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini_AI-8E75B2?style=flat-square&logo=google&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/news-verification-system?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/news-verification-system?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/news-verification-system?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/news-verification-system?style=flat-square) [![Website](https://img.shields.io/website?url=https://news-verify.0xarchit.is-a.dev&style=flat-square)](https://news-verify.0xarchit.is-a.dev){target="_blank"}
 
 :icon-mark-github: **GitHub**: [0xarchit/news-verification-system](https://github.com/0xarchit/news-verification-system){target="_blank"}
 

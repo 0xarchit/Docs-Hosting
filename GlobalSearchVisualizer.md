@@ -8,7 +8,8 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 
 # 🌍 Global Search Visualizer
 
-**Multi-Region Search Result Screenshot Tool** - Discover how search results differ across countries and regions with automated browser automation, proxy-based geolocation, and a professional React dashboard.
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![License](https://img.shields.io/github/license/0xarchit/global-search-visualizer?style=flat-square)  
+![Stars](https://img.shields.io/github/stars/0xarchit/global-search-visualizer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/global-search-visualizer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/global-search-visualizer?style=flat-square) [![Website](https://img.shields.io/website?url=https://global-view.0xarchit.is-a.dev&style=flat-square)](https://global-view.0xarchit.is-a.dev){target="_blank"}
 
 **:icon-mark-github: GitHub:** [https://github.com/0xarchit/global-search-visualizer](https://github.com/0xarchit/global-search-visualizer){target}  
 **:icon-globe: Live Project:** [https://global-view.0xarchit.is-a.dev](https://global-view.0xarchit.is-a.dev){target="_blank"}  

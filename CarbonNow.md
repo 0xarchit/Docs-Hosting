@@ -8,7 +8,8 @@ tags: [FastAPI, Python, Carbon, API, Docker]
 
 # :icon-image: Carbon Code Image Generator
 
-![FastAPI](https://img.shields.io/badge/FastAPI-Python-green) ![Docker](https://img.shields.io/badge/Docker-Containerized-blue) ![Carbon](https://img.shields.io/badge/Carbon-Code_Images-orange)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/carbon-now-sh-api?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/carbon-now-sh-api?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/carbon-now-sh-api?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/carbon-now-sh-api?style=flat-square) [![Website](https://img.shields.io/website?url=https://zeroxcarbon.onrender.com/docs&style=flat-square)](https://zeroxcarbon.onrender.com/docs){target="_blank"}
 
 
 :icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}  

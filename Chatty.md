@@ -10,11 +10,11 @@ tags: [JavaScript, Widget, CDN, Shadow DOM, Chatbot]
 
 AnyWhere Chatbot ("Chatty") is a lightweight, drop-in JavaScript widget that adds a floating, context-aware chatbot to any website. The widget is delivered as a single script via Jsdelivr cdn. Chatty supports customizable branding, theme mode, system prompt, and optional page context capture.
 
-:::buttons
-[Repository :icon-mark-github:](https://github.com/0xarchit/AnyWhere-ChatBot-Chatty){target="_blank"}  
-[Live Demo :icon-globe:](https://chatty.0xarchit.is-a.dev){target="_blank"}  
-[CDN :icon-link:](https://cdn.jsdelivr.net/gh/0xarchit/AnyWhere-ChatBot-Chatty@1.0.0/chatty.min.js){target="_blank"}
-:::
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Widget](https://img.shields.io/badge/Widget-Chatbot-blue?style=flat-square) ![CDN](https://img.shields.io/badge/CDN-Delivered-orange?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/AnyWhere-ChatBot-Chatty?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/AnyWhere-ChatBot-Chatty?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/AnyWhere-ChatBot-Chatty?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/AnyWhere-ChatBot-Chatty?style=flat-square) [![Website](https://img.shields.io/website?url=https://chatty.0xarchit.is-a.dev&style=flat-square)](https://chatty.0xarchit.is-a.dev){target="_blank"}
+
+:icon-mark-github: **GitHub**: [0xarchit/AnyWhere-ChatBot-Chatty](https://github.com/0xarchit/AnyWhere-ChatBot-Chatty){target="_blank"}  
+:icon-globe: **Live Demo**: [https://chatty.0xarchit.is-a.dev](https://chatty.0xarchit.is-a.dev){target="_blank"}
 
 **Quick Start**
 - **Install:** Add the script tag to any page near the end of the `body`.

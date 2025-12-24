@@ -8,7 +8,8 @@ tags: [React, Typescript, Capacitor, Zustand, AI, Gemini]
 
 # :icon-code: CodeArc: Programming‑Centric AI Chatbot Companion
 
-![React](https://img.shields.io/badge/React-TypeScript-blue) ![AI](https://img.shields.io/badge/AI-Gemini-orange) ![Capacitor](https://img.shields.io/badge/Capacitor-Mobile-purple)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/CodeArc?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/CodeArc?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/CodeArc?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/CodeArc?style=flat-square) [![Website](https://img.shields.io/website?url=https://codearc.pages.dev&style=flat-square)](https://codearc.pages.dev){target="_blank"}
 
 :icon-mark-github: **GitHub**: [0xarchit/CodeArc](https://github.com/0xarchit/CodeArc){target="_blank"}
 

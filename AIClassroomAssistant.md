@@ -8,9 +8,10 @@ tags: [AI, Teaching Assistant, FastAPI, WebSocket, TailwindCSS]
 
 # :icon-mortar-board: AI Teaching Assistant System
 
-![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/Python-3.11-blue) ![](https://img.shields.io/badge/TailwindCSS-Design-blue) ![](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/Classroom_AI_Assistant?style=flat-square)  
+![Stars](https://img.shields.io/github/stars/0xarchit/Classroom_AI_Assistant?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/Classroom_AI_Assistant?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/Classroom_AI_Assistant?style=flat-square) [![Website](https://img.shields.io/website?url=https://0xarchit-classroom-ai-assistant.hf.space&style=flat-square)](https://0xarchit-classroom-ai-assistant.hf.space){target="_blank"}
 
-:icon-mark-github: **GitHub**: [0xarchit/Classroom_AI_Assistant](https://github.com/0xarchit/Classroom_AI_Assistant){target="_blank"}
+:icon-mark-github: **GitHub**: [0xarchit/Classroom_AI_Assistant](https://github.com/0xarchit/Classroom_AI_Assistant){target="_blank"}  
 :icon-globe: **Live Demo**: [https://0xarchit-classroom-ai-assistant.hf.space](https://0xarchit-classroom-ai-assistant.hf.space){target="_blank"}
 
 > [!TIP]

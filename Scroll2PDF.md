@@ -8,7 +8,8 @@ tags: [Python, PyQt6, Screenshot, PDF]
 
 # :icon-file: Auto-Scrolling Webpage Capture to PDF
 
-![Python](https://img.shields.io/badge/Python-3.13-blue) ![PyQt6](https://img.shields.io/badge/PyQt6-blue) ![PDF](https://img.shields.io/badge/PDF-export-red)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white) ![PDF](https://img.shields.io/badge/PDF-Tool-red?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/Scroll-To-Pdf?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/Scroll-To-Pdf?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/Scroll-To-Pdf?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/Scroll-To-Pdf?style=flat-square)
 
 :icon-mark-github: **GitHub**: [0xarchit/Scroll-To-Pdf](https://github.com/0xarchit/Scroll-To-Pdf){target="_blank"}
 

@@ -8,7 +8,8 @@ tags: [React, Typescript, FastAPI, Sqlite, Docker]
 
 # LearnTrack
 
-![](https://img.shields.io/badge/React-TypeScript-blue) ![](https://img.shields.io/badge/FastAPI-Python-green) ![](https://img.shields.io/badge/SQLite-Database-orange)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/LearnTrack?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/LearnTrack?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/LearnTrack?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/LearnTrack?style=flat-square) [![Website](https://img.shields.io/website?url=https://learntrack.pages.dev&style=flat-square)](https://learntrack.pages.dev){target="_blank"}
 
 :icon-mark-github: **GitHub**: [0xarchit/LearnTrack](https://github.com/0xarchit/LearnTrack){target="_blank"}
 

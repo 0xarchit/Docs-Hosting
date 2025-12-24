@@ -8,10 +8,10 @@ tags: [n8n, AI, Instagram, FastAPI, Automation, Memes]
 
 # :icon-hubot: Automated Meme Generation System
 
-![n8n](https://img.shields.io/badge/n8n-Workflow-red) ![AI](https://img.shields.io/badge/AI-Mistral-blue) ![Instagram](https://img.shields.io/badge/Instagram-Auto_Post-purple) ![FastAPI](https://img.shields.io/badge/FastAPI-Carbon_API-green)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) ![AI](https://img.shields.io/badge/AI-Mistral-blue?style=flat-square) ![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/n8n-templates?style=flat-square)    
+![Stars](https://img.shields.io/github/stars/0xarchit/n8n-templates?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/n8n-templates?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/n8n-templates?style=flat-square)
 
-:icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}
-
+:icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}  
 :icon-globe: **Github**: [0xarchit/n8n-templates](https://github.com/0xarchit/n8n-templates/tree/main/Instagram%20auto%20meme%20post){target="_blank"}
 
 > [!TIP]
