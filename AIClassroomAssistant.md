@@ -17,7 +17,7 @@ tags: [AI, Teaching Assistant, FastAPI, WebSocket, TailwindCSS]
 > [!TIP]
 > A multimodal AI assistant system integrating emotion detection, speech processing, and contextual AI responses.
 
-## :icon-goal: Problem Statement
+## :icon-milestone: Problem Statement
 Modern classrooms lack real-time, interactive tools to address diverse student needs and keep them engaged. The objective is to create a multimodal AI assistant that:
 
 - Accepts and processes text and voice queries from students in real-time.
@@ -49,7 +49,7 @@ Modern classrooms lack real-time, interactive tools to address diverse student n
 - Dynamic UI updates based on emotion detection
 - Speech recognition using Web Speech API
 
-### :icon-workflow: System Flow Diagram
+### :icon-project: System Flow Diagram
 
 ```mermaid
 graph TD
@@ -137,7 +137,7 @@ version1/
         └── index.html            # Main web interface
 ```
 
-## :icon-ai-model: AI Core & Technical Details
+## :icon-hubot: AI Core & Technical Details
 
 ### AI Model
 - LLaMA 3.1 3B (8-bit) fine-tuned on 9,000+ emotion-labeled Q&A pairs
@@ -160,7 +160,7 @@ version1/
 - Dynamic content generation that adapts to both query and detected emotion
 - Integrated image processing with AI-generated responses
 
-## :icon-code-square: Implementation Details
+## :icon-file-code: Implementation Details
 
 This isn't just an API wrapper—it's a complete system with:
 - Custom WebSocket architecture handling real-time bidirectional communication
@@ -244,7 +244,3 @@ As we continue to develop this AI Classroom Teaching Assistant System, we plan t
 - **AR/VR Integration**: Creation of immersive educational experiences with 3D visualizations of complex concepts
 - **Collaborative Learning Features**: Facilitation of group activities and peer-to-peer learning with AI moderation
 - **Advanced Analytics Dashboard**: Comprehensive insights for educators about student engagement, emotional patterns, and learning progress
-
-## :icon-law: License
-
-This project is part of the Intel Unnati program, completed by team Bitbots.

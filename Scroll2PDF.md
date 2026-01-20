@@ -118,7 +118,7 @@ Click **Preview Screenshots** to open a stitched image of all screenshots. Close
 
 ---
 
-## :icon-Workflow: How It Works
+## :icon-workflow: How It Works
 
 1. **Initial Delay**: 3 seconds to switch focus to browser
 2. **Scroll Loop**:

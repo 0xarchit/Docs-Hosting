@@ -34,7 +34,7 @@ tags: [React, Typescript, FastAPI, Sqlite, Docker]
 ![Backend (FastAPI Swagger UI)](Public/LearnTrack/backend.png)
 +++
 
-## :icon-goal: Problem Statement
+## :icon-milestone: Problem Statement
 
 !!! :icon-book: Project Brief
 Learn Track streamlines course access, submission tracking, and academic progress for students and faculty. It supports resource uploading, grading, feedback, and certificate downloads. Personalized dashboards give real-time academic analytics. The system supports semester-based enrollment, auto-notifications, and bulk result uploads.
@@ -142,7 +142,7 @@ docker load -i learntrack_v2_1.tar
 docker run --rm -d --name learntrack_v2_1 -p 5000:5000 -p 5173:5173 learntrack_v2_1
 ```
 
-### :icon-Play: Running the Application
+### :icon-play: Running the Application
 
 ```bash
 # Start backend (FastAPI)
@@ -287,7 +287,7 @@ flowchart TD
 | **notifications** | id, message, type, target_role, created_at |
 +++
 
-### :icon-Organization: ER Diagram
+### :icon-organization: ER Diagram
 
 ```mermaid
 erDiagram
@@ -372,12 +372,12 @@ erDiagram
     ASSIGNMENTS ||--o{ SUBMISSIONS : has
 ```  
 
-### :icon-Milestone: Migrations
+### :icon-milestone: Migrations
 On startup, `init_db()` adds missing columns and migrates data.
 
 ## :icon-workflow: Workflows
 
-### :icon-Shield: Authentication Flow
+### :icon-shield: Authentication Flow
 ```mermaid
 flowchart TD
   A[User] -->|POST /api/login| B[AuthContext]
@@ -403,7 +403,7 @@ sequenceDiagram
   Faculty->>API: PUT /api/submissions/{id}/grade
 ```
 
-### :icon-Megaphone: Notification Flow
+### :icon-megaphone: Notification Flow
 ```mermaid
 flowchart TD
   A[Admin/Faculty] -->|POST /api/notifications| B[NotificationContext]
@@ -427,7 +427,7 @@ flowchart LR
   FE -->|HTTP| BE -->|SQL| DB
 ```
 
-### :icon-Browser: Frontend Routing
+### :icon-browser: Frontend Routing
 ```mermaid
 flowchart LR
   Public --> AuthLayout --> Login/Register

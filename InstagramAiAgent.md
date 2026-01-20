@@ -143,7 +143,3 @@ graph TD
 +++
 
 ---
-
-## :icon-law: License
-
-Open source - feel free to fork and customize for your own automated meme empire! :icon-trophy:

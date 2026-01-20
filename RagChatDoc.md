@@ -26,7 +26,7 @@ tags: [RAG, FastAPI, React, Milvus, Mistral, Gradio, LangChain, ChromaDB, Gemini
   - [Getting Started](#getting-started)
   - [API Reference](#api-reference)
   - [Future Goals](#future-goals)
-- :icon-Hubot: [AI/ML/GenAI Mentor Chatbot](#ai-ml-genai-mentor-chatbot)
+- :icon-hubot: [AI/ML/GenAI Mentor Chatbot](#ai-ml-genai-mentor-chatbot)
   - [Running in Google Colab](#running-in-google-colab)
   - [Preview](#preview)
   - [Basic Working](#basic-working)

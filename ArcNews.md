@@ -18,7 +18,7 @@ tags: [React, TypeScript, Cloudflare Workers, D1, FastAPI, Node.js, Puppeteer, S
 
 ---
 
-## ⭐ Support This Project
+## :icon-star: Support This Project
 
 If you find ArcNews useful for learning, prototyping, or as a reference, please consider starring the repository. Your support is greatly appreciated and helps the project's visibility.
 

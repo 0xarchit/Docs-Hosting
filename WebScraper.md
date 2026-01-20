@@ -68,49 +68,49 @@ python basescript\scraper_base.py
 
 ```text
 ======================================================================
-                     🌐 DuckDuckGo Query Scraper 🌐
+                     * DuckDuckGo Query Scraper *
                             By 0xArchit
 ======================================================================
 
-🔎 Enter your search query: Gen AI
-🚀 Fetching fresh proxy list...
-✅ Loaded 2393 proxies.
+? Enter your search query: Gen AI
+> Fetching fresh proxy list...
+[OK] Loaded 2393 proxies.
 
-🔍 Initiating DuckDuckGo Lite search for: 'Gen AI'
+> Initiating DuckDuckGo Lite search for: 'Gen AI'
 
-🔌 Testing proxy: 51.81.245.3:17981
-✅ Proxy working: 51.81.245.3:17981
-🌐 Attempt 1/5 Scraping: https://lite.duckduckgo.com/lite/?q=Gen AI with proxy: http://51.81.245.3:17981
-  ✅ Successfully scraped https://lite.duckduckgo.com/lite/?q=Gen AI
-⏳ Waiting 5 seconds after DuckDuckGo search to avoid rate limits...
+[Proxy] Testing proxy: 51.81.245.3:17981
+[OK] Proxy working: 51.81.245.3:17981
+Attempt 1/5 Scraping: https://lite.duckduckgo.com/lite/?q=Gen AI with proxy: http://51.81.245.3:17981
+  [OK] Successfully scraped https://lite.duckduckgo.com/lite/?q=Gen AI
+[Wait] Waiting 5 seconds after DuckDuckGo search to avoid rate limits...
 
-➡️ Found result: 'What is generative AI? - IBM'
-   🔗 Link: https://www.ibm.com/think/topics/generative-ai
-⏳ Waiting 5 seconds before scraping this result page...
-🌐 Attempt 1/5 Scraping: https://www.ibm.com/think/topics/generative-ai with proxy: http://51.81.245.3:17981
-  ✅ Successfully scraped https://www.ibm.com/think/topics/generative-ai
+-> Found result: 'What is generative AI? - IBM'
+   Link: https://www.ibm.com/think/topics/generative-ai
+[Wait] Waiting 5 seconds before scraping this result page...
+Attempt 1/5 Scraping: https://www.ibm.com/think/topics/generative-ai with proxy: http://51.81.245.3:17981
+  [OK] Successfully scraped https://www.ibm.com/think/topics/generative-ai
 
-➡️ Found result: 'Generative artificial intelligence - Wikipedia'
-   🔗 Link: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
-⏳ Waiting 5 seconds before scraping this result page...
-🌐 Attempt 1/5 Scraping: https://en.wikipedia.org/wiki/Generative_artificial_intelligence with proxy: http://51.81.245.3:17981
-  ✅ Successfully scraped https://en.wikipedia.org/wiki/Generative_artificial_intelligence
+-> Found result: 'Generative artificial intelligence - Wikipedia'
+   Link: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
+[Wait] Waiting 5 seconds before scraping this result page...
+Attempt 1/5 Scraping: https://en.wikipedia.org/wiki/Generative_artificial_intelligence with proxy: http://51.81.245.3:17981
+  [OK] Successfully scraped https://en.wikipedia.org/wiki/Generative_artificial_intelligence
 
-➡️ Found result: 'What is Generative AI? - GeeksforGeeks'
-   🔗 Link: https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
-⏳ Waiting 5 seconds before scraping this result page...
-🌐 Attempt 1/5 Scraping: https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/ with proxy: http://51.81.245.3:17981
-  ✅ Successfully scraped https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
+-> Found result: 'What is Generative AI? - GeeksforGeeks'
+   Link: https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
+[Wait] Waiting 5 seconds before scraping this result page...
+Attempt 1/5 Scraping: https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/ with proxy: http://51.81.245.3:17981
+  [OK] Successfully scraped https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
 
 ==================== UNIVERSAL SCRAPE REPORT ====================
 
 
----------- ✨ RESULT #1 ✨ ----------------------------------------
+---------- RESULT #1 ----------------------------------------
 
-  📌 Title: What is generative AI? - IBM
-  🌐 URL  : https://www.ibm.com/think/topics/generative-ai
+  Title: What is generative AI? - IBM
+  URL  : https://www.ibm.com/think/topics/generative-ai
 
-  📊 Detailed Analysis (General Web Page):
+  Detailed Analysis (General Web Page):
     - Url: https://www.ibm.com/think/topics/generative-ai
     - Title: What is Generative AI?  | IBM
     - Meta Description: Generative AI is artificial intelligence (AI) that can create original content in response to a user’s prompt or request.
@@ -123,7 +123,7 @@ python basescript\scraper_base.py
     - Published Date: Not specified
     - Structured Data: (Complex Data - See raw content)
 
-  📄 Raw Content Excerpt:
+  Raw Content Excerpt:
     What is Generative AI? | IBM What is generative AI? 22 March 2024
     Link copied Authors Cole Stryker Editorial Lead, AI Models Mark
     Scapicchio Editor, Topics & Insights for IBM Think What is
@@ -326,12 +326,12 @@ python basescript\scraper_base.py
 ------------------------------------------------------------
 
 
----------- ✨ RESULT #2 ✨ ----------------------------------------
+---------- RESULT #2 ----------------------------------------
 
-  📌 Title: Generative artificial intelligence - Wikipedia
-  🌐 URL  : https://en.wikipedia.org/wiki/Generative_artificial_intelligence
+  Title: Generative artificial intelligence - Wikipedia
+  URL  : https://en.wikipedia.org/wiki/Generative_artificial_intelligence
 
-  📊 Detailed Analysis (General Web Page):
+  Detailed Analysis (General Web Page):
     - Url: https://en.wikipedia.org/wiki/Generative_artificial_intelligence
     - Title: Generative artificial intelligence - Wikipedia
     - Meta Description: No Meta Description
@@ -343,7 +343,7 @@ python basescript\scraper_base.py
     - Published Date: Not specified
     - Structured Data: (Complex Data - See raw content)
 
-  📄 Raw Content Excerpt:
+  Raw Content Excerpt:
     Generative artificial intelligence - Wikipedia Jump to content
     From Wikipedia, the free encyclopedia Subset of AI using
     generative models Not to be confused with Artificial general
@@ -546,12 +546,12 @@ python basescript\scraper_base.py
 ------------------------------------------------------------
 
 
----------- ✨ RESULT #3 ✨ ----------------------------------------
+---------- RESULT #3 ----------------------------------------
 
-  📌 Title: What is Generative AI? - GeeksforGeeks
-  🌐 URL  : https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
+  Title: What is Generative AI? - GeeksforGeeks
+  URL  : https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
 
-  📊 Detailed Analysis (General Web Page):
+  Detailed Analysis (General Web Page):
     - Url: https://www.geeksforgeeks.org/artificial-intelligence/what-is-generative-ai/
     - Title: What is Generative AI? - GeeksforGeeks
     - Meta Description: Your All-in-One Learning Portal: GeeksforGeeks is a comprehensive educational platform that empowers learners across domains-spanning computer science and programming, school education, upskilling, commerce, software tools, competitive exams, and more.
@@ -563,7 +563,7 @@ python basescript\scraper_base.py
     - Published Date: 2023-08-16 12:11:46+00:00
     - Structured Data: (Complex Data - See raw content)
 
-  📄 Raw Content Excerpt:
+  Raw Content Excerpt:
     What is Generative AI? - GeeksforGeeks Data Science Data Science
     Projects Data Analysis Data Visualization Machine Learning ML
     Projects Deep Learning NLP Computer Vision Artificial Intelligence
@@ -766,7 +766,7 @@ python basescript\scraper_base.py
 
 
 ======================================================================
-                   ✨ Scraping Process Completed ✨
+                   * Scraping Process Completed *
 ======================================================================
 
 ```

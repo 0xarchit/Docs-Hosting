@@ -6,7 +6,7 @@ order: 84
 tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CSS]
 ---
 
-# 🌍 Global Search Visualizer
+# :icon-globe: Global Search Visualizer
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![License](https://img.shields.io/github/license/0xarchit/global-search-visualizer?style=flat-square)  
 ![Stars](https://img.shields.io/github/stars/0xarchit/global-search-visualizer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/global-search-visualizer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/global-search-visualizer?style=flat-square) [![Website](https://img.shields.io/website?url=https://global-view.0xarchit.is-a.dev&style=flat-square)](https://global-view.0xarchit.is-a.dev){target="_blank"}
@@ -18,9 +18,9 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 > [!TIP]
 > :icon-rocket: Quick start: Clone the repo, install dependencies, run `python start.py` to launch both backend and frontend servers.
 
-## ✨ Features {#features}
+## :icon-star: Features {#features}
 
-### 🔍 Search & Automation {#search--automation}
+### :icon-search: Search & Automation {#search--automation}
 
 - :icon-search: **Multi-Region Search**: Test search results from different geographical locations using HTTP/SOCKS4/SOCKS5 proxies
 - :icon-browser: **Multiple Search Engines**: Support for Google, Bing, DuckDuckGo, and Yahoo
@@ -33,14 +33,14 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 - :icon-zap: **Concurrent Processing**: Resource-aware parallel browser execution (2-8x faster)
 - :icon-cpu: **Smart Auto-scaling**: Automatically adjusts concurrency based on CPU and memory
 
-### 🎯 Proxy Management {#proxy-management}
+### :icon-milestone: Proxy Management {#proxy-management}
 
 - :icon-location: **Geolocation Detection**: Automatic proxy location identification via IP-API
 - :icon-check: **Proxy Validation**: Test HTTP/SOCKS4/SOCKS5 proxies before use
 - :icon-file: **Bulk Import**: Support for proxy lists via text input or URL
 - :icon-pulse: **Real-time Validation**: Live validation feedback with success/failure indicators
 
-### 📊 Dashboard & Visualization
+### :icon-graph: Dashboard & Visualization
 - **Interactive Web UI**: Professional React + TypeScript interface
 - **Real-time Updates**: WebSocket and polling-based job progress tracking
 - **Session History**: Browse all previous search jobs with detailed metadata
@@ -48,7 +48,7 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 - **Screenshot Preview**: In-browser image viewing with download options
 - **Export Options**: Download screenshots as ZIP
 
-### 🛠️ Technical
+### :icon-tools: Technical
 - **JSON Storage**: No database required - all data stored in structured JSON files
 - **RESTful API**: Clean FastAPI backend with comprehensive endpoints
 - **WebSocket Support**: Real-time job updates via WebSocket connections
@@ -57,7 +57,7 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 
 ---
 
-## 🏗️ Tech Stack {#tech-stack}
+## :icon-organization: Tech Stack {#tech-stack}
 
 ### Backend
 - **Framework**: FastAPI (Python 3.8+)
@@ -83,7 +83,7 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 ---
 
 
-## 🚀 Quick Start {#quick-start}
+## :icon-rocket: Quick Start {#quick-start}
 
 ### Prerequisites
 - **Python**: 3.8 or higher
@@ -92,13 +92,13 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 
 ### Installation
 
-#### 1️⃣ Clone the Repository
+#### 1. Clone the Repository
 ```bash
 git clone https://github.com/0xarchit/global-search-visualizer.git
 cd global-search-visualizer
 ```
 
-#### 2️⃣ Backend Setup
+#### 2. Backend Setup
 ```bash
 # Create and activate virtual environment
 python -m venv venv
@@ -116,7 +116,7 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-#### 3️⃣ Frontend Setup
+#### 3. Frontend Setup
 ```bash
 cd frontend
 
@@ -131,7 +131,7 @@ npm run build
 bun run build
 ```
 
-#### 4️⃣ Configuration (Optional)
+#### 4. Configuration (Optional)
 
 Create a `.env` file in the project root for Google API credentials:
 ```env
@@ -170,7 +170,7 @@ npm run dev  # or: bun run dev
 
 ---
 
-## 📖 Usage Guide {#usage-guide}
+## :icon-book: Usage Guide {#usage-guide}
 
 ### Step 1: Validate Proxies
 
@@ -186,9 +186,9 @@ npm run dev  # or: bun run dev
 5. View geolocation data (country, city, ISP)
 
 **Proxy Tips:**
-- ✅ Paid residential/datacenter proxies work best
-- 🆓 Free proxies: Try [Webshare](https://dashboard.webshare.io) (10 free rotating proxies)
-- 🔄 Replace free proxies frequently (higher failure rates)
+- :icon-check: Paid residential/datacenter proxies work best
+- :icon-smiley: Free proxies: Try [Webshare](https://dashboard.webshare.io) (10 free rotating proxies)
+- :icon-sync: Replace free proxies frequently (higher failure rates)
 
 ### Step 2: Configure Search
 
@@ -221,7 +221,7 @@ npm run dev  # or: bun run dev
 
 ---
 
-## ⚙️ Configuration {#configuration}
+## :icon-gear: Configuration {#configuration}
 
 ### Concurrency Settings
 
@@ -304,7 +304,7 @@ Edit `config.json` to optimize performance:
 
 ---
 
-## 📂 Project Structure {#project-structure}
+## :icon-file-directory: Project Structure {#project-structure}
 
 ```
 05 globe-search-view/
@@ -350,7 +350,7 @@ Edit `config.json` to optimize performance:
 
 ---
 
-## 🔌 API Documentation {#api-documentation}
+## :icon-plug: API Documentation {#api-documentation}
 
 ### Base URL
 ```
@@ -503,7 +503,7 @@ Real-time job updates via WebSocket
 
 ---
 
-## 🎨 Frontend Design System {#frontend-design-system}
+## :icon-paintbrush: Frontend Design System {#frontend-design-system}
 
 ### Color Palette
 - **Primary**: Deep Blue `#1e40af`
@@ -546,7 +546,7 @@ const sessions = await api.listSessions();
 
 ---
 
-## 🐳 Docker Deployment {#docker-deployment}
+## :icon-container: Docker Deployment {#docker-deployment}
 
 ### Build Image
 ```bash
@@ -565,7 +565,7 @@ docker run -d \
 
 ---
 
-## 🧪 Development {#development}
+## :icon-beaker: Development {#development}
 
 ### Backend Development
 ```bash
@@ -602,7 +602,7 @@ npm run test
 
 ---
 
-## 🚢 Deployment Options {#deployment-options}
+## :icon-server: Deployment Options {#deployment-options}
 
 ### 1. Traditional Server
 ```bash
@@ -625,7 +625,7 @@ gunicorn app:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
 
 ---
 
-## 🔧 Troubleshooting {#troubleshooting}
+## :icon-tools: Troubleshooting {#troubleshooting}
 
 ### Common Issues
 
@@ -667,7 +667,7 @@ playwright install --force chromium
 
 ---
 
-## 📊 System Requirements {#system-requirements}
+## :icon-graph: System Requirements {#system-requirements}
 
 ### Minimum
 - **CPU**: 2 cores
@@ -683,7 +683,7 @@ playwright install --force chromium
 
 ---
 
-## 🤝 Contributing {#contributing}
+## :icon-heart: Contributing {#contributing}
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -707,31 +707,3 @@ Contributions are welcome! Please follow these guidelines:
    - Reference related issues
 
 ---
-
-## 📄 License
-
-MIT License - Feel free to use this project for personal or commercial purposes.
-
----
-
-## 🙏 Acknowledgments
-
-- **Playwright**: Browser automation framework
-- **FastAPI**: Modern Python web framework
-- **React**: UI library
-- **TailwindCSS**: Utility-first CSS framework
-- **IP-API**: Geolocation service
-- **Webshare**: Free proxy provider
-
----
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/0xarchit/global-search-visualizer/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/0xarchit/global-search-visualizer/discussions)
-- **Email**: mail@0xarchit.is-a.dev
-
----
-
-**Built with ❤️ using FastAPI, React, and Playwright**
-

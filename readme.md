@@ -1,5 +1,5 @@
 # Welcome
-## 👋 Hello There!
+## :icon-hand: Hello There!
 
 This website hosts the public documentation for my various projects and technical work. I've created this space to share knowledge, specifications, and insights from my development journey.
 

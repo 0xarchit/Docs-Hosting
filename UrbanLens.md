@@ -1,0 +1,242 @@
+---
+label: UrbanLens
+icon: eye
+description: "Autonomous, event-driven operating system for smart cities using AI agents for proactive infrastructure maintenance."
+order: 78
+tags: [FastAPI, Next.js, React Native, AI/ML, YOLOv8]
+---
+
+# :icon-eye: UrbanLens
+
+**"Governance at the Speed of Software."**
+
+![Repo Size](https://img.shields.io/github/repo-size/0xarchit/UrbanLens?style=flat-square&color=2ecc71) ![Last Commit](https://img.shields.io/github/last-commit/0xarchit/UrbanLens?style=flat-square&color=3498db) ![Issues](https://img.shields.io/github/issues/0xarchit/UrbanLens?style=flat-square&color=e74c3c) ![Pull Requests](https://img.shields.io/github/issues-pr/0xarchit/UrbanLens?style=flat-square&color=9b59b6)
+
+**:icon-mark-github: GitHub:** [https://github.com/0xarchit/UrbanLens](https://github.com/0xarchit/UrbanLens){target="_blank"}
+
+## Idea Brief {#idea-brief}
+
+**UrbanLens** is an autonomous, event-driven operating system for smart cities that transforms civil infrastructure maintenance from reactive to proactive. Unlike traditional 311 systems that rely on manual triage, UrbanLens leverages AI agents to instantly detect, validate, and route urban issues-such as potholes, illegal dumping, and damaged signage-without human fatigue or bias. By using citizens as real-time sensors and autonomous agents as the nervous system, UrbanLens ensures city-scale, self-healing infrastructure.
+
+## System Internals: The "Issue Packet" {#issue-packet}
+
+Every interaction in UrbanLens starts with an **Issue Packet**—an immutable, atomic unit of civic data.
+
+- :icon-video: **Evidence:** Primary visual proof (Image/Video) captured via mandatory live camera.
+- :icon-location: **Context:** High-precision GPS (<10m accuracy), Compass Heading, and Device Metadata.
+- :icon-comment: **Intent:** User-provided description, enhanced by NLP.
+
+### Anti-Fraud Enforcement {#anti-fraud}
+
+UrbanLens implements a "Spot-Check" protocol to ensure data integrity at the source:
+
+1.  :icon-device-camera: **Live Camera Only:** The mobile app restricts gallery access. Users MUST capture photos live, preventing the repurposing of old or internet images.
+2.  :icon-lock: **GPS Precision Lock:** Submission is practically blocked unless GPS accuracy is better than **10 meters**.
+3.  :icon-key: **Identity Binding:** All reports are cryptographically linked to a verified Google Identity (Supabase Auth).
+
+## The Problem {#the-problem}
+
+Traditional urban governance is plagued by:
+
+- :icon-clock: **Manual Bottlenecks:** Every report sits in a queue waiting for human categorization.
+- :icon-copy: **Redundancy:** Multiple citizens report the same issue, creating duplicate tickets and wasting resources.
+- :icon-stop: **Data Black Holes:** Citizens rarely receive feedback on their reports, leading to civic frustration.
+- :icon-sort-desc: **Subjective Prioritization:** Urgent issues on main roads are often treated the same as minor issues in quiet alleys.
+
+## The Solution: UrbanLens {#the-solution}
+
+UrbanLens introduces the **"Issue Packet"**-an immutable unit of data containing visual evidence, GPS metadata, and intent. This packet triggers an autonomous chain reaction across a specialized agent pipeline.
+
+### System Architecture {#system-architecture}
+
+```mermaid
+graph TD
+    A[Citizen Mobile App] -->|Issue Packet| B[FastAPI Backend]
+    B --> C[Event Bus]
+    
+    subgraph "Autonomous Agent Pipeline"
+        C --> D[Vision Agent]
+        D -->|Annotated Data| E[Geo-Deduplicate Agent]
+        E -->|Clustered Info| F[Priority Agent]
+        F -->|Urgency Level| G[Routing Agent]
+        G -->|Assignment| H[Notification Agent]
+    end
+    
+    H --> I[Worker Dashboard]
+    H --> J[Admin Portal]
+    H --> K[Citizen Updates]
+    
+    subgraph "Data Layer"
+        L[(PostgreSQL + PostGIS)]
+        M[(Supabase Storage)]
+    end
+    
+    D -.-> M
+    E -.-> L
+```
+
+## The Autonomous Pipeline (Deep Dive) {#autonomous-pipeline}
+
+The systems acts as a nervous system where agents react to the "Issue Packet" in real-time.
+
+### Stage 1: The Senses (Input & Validation) {#stage-1}
+
+- :icon-eye: **Vision Agent:** The "Eyes". Uses a fine-tuned **YOLOv8** model to scan incoming images.
+    - **Rejection:** Automatically discards irrelevant images (e.g., selfies, blurry photos).
+    - **Classification:** Identifies defects (Pothole, Debris, Graffiti) with confidence scores.
+- :icon-git-merge: **Geo-Temporal Deduplication Agent:** The "Memory".
+    - **Clustering:** Queries the geospatial index for similar reports within `X` meters and `Y` hours.
+    - **Merging:** Instead of creating duplicates, it merges reports into a single "Cluster", increasing its urgency score.
+
+### Stage 2: The Brain (Decision Making) {#stage-2}
+
+- :icon-law: **Priority Agent:** The "Judge".
+    - **Context Awareness:** Combines Vision Confidence + Location Context (e.g., "Near School") + Repeat Count.
+    - **SLA Setting:** Assigns dynamic deadlines (e.g., 4 hours for Critical).
+- :icon-hubot: **Routing Agent:** The "Dispatcher".
+    - **Logic:** Matches issue category to Department (Roads vs Sanitation) and assigns to specific workers based on geolocation and load.
+
+### Stage 3: The Enforcers (Execution) {#stage-3}
+
+- :icon-clock: **SLA Watchdog Agent:** The "Timekeeper".
+    - **AI Monitoring:** analyze the *context* of delayed issues, not just the timer.
+    - **Escalation:** Triggers warnings at 50% and 20% remaining time.
+- :icon-bell: **Notification Agent:** The "Messenger".
+    - **Omnichannel:** Pushes updates to the Citizen (App) and Worker (Task List) simultaneously and send email notifications to respectives.
+
+## Project Showcase {#project-showcase}
+
+<details>
+<summary><b>User Mobile App Interface</b></summary>
+<br>
+
+![Mobile Interface](public/UrbanLens/android_app_interface.jpg)
+![Reporting Interface](public/UrbanLens/android_app_issue_interface.jpg)
+
+</details>
+
+<details>
+<summary><b>Admin Command Center</b></summary>
+<br>
+
+![Admin Dashboard](public/UrbanLens/web_portal_admin.png)
+![Geospatial Heatmap](public/UrbanLens/web_portal_admin_heatmap.png)
+![Issue Management](public/UrbanLens/web_portal_admin_issuespage.png)
+![AI Manual Review](public/UrbanLens/web_portal_admin_manualreview.png)
+![Workforce Management](public/UrbanLens/web_portal_admin_workforce_managepage.png)
+![Department Control](public/UrbanLens/web_portal_admin_department_managepage.png)
+![Worker Requests](public/UrbanLens/web_portal_admin_workerrequest_manualapprove.png)
+
+</details>
+
+<details>
+<summary><b>Worker & Resolution Portal</b></summary>
+<br>
+
+![Worker Dashboard](public/UrbanLens/web_portal_worker.png)
+![Resolution Protocol](public/UrbanLens/web_portal_worker_issue_resolvereview.png)
+![Evidence Submission](public/UrbanLens/web_portal_worker_issue_resolvesubmit.png)
+![Task Completion](public/UrbanLens/web_portal_worker_issuecomplete.png)
+
+</details>
+
+<details>
+<summary><b>Web Portal for Citizen</b></summary>
+<br>
+
+![Landing Page](public/UrbanLens/web_portal.png)
+![User Dashboard](public/UrbanLens/web_portal_user.png)
+
+</details>
+
+<details>
+<summary><b>Autonomous Pipeline</b></summary>
+<br>
+
+![Pipeline Overview](public/UrbanLens/pipeline_overview.png)
+
+</details>
+
+## Client Ecosystem {#client-ecosystem}
+
+### 1. Citizen Mobile App (The Sensors) {#citizen-mobile-app}
+*Built with React Native + Expo (TypeScript)*
+- :icon-rss: **Offline-First:** (Experimental Beta) Caches reports locally and syncs when connection returns.
+- :icon-pulse: **Real-Time Tracking:** Server-driven events update the "Processing" screen live as agents complete their tasks.
+- :icon-trophy: **Gamification:** (Planned) Civic points for verified reports.
+
+### 2. Admin Command Center (The Control) {#admin-command-center}
+*Built with Next.js 16 (App Router) + Tailwind CSS*
+- :icon-shield-lock: **Role-Based Access Control (RBAC):**
+    - **Super Admin:** System config.
+    - **Worker Dashboard:** Submission of issues and resolution.
+- :icon-graph: **Visual Intelligence:** Heatmaps and density plots to identify crumbling infrastructure zones.
+
+### 3. Worker Interface (The Hands) {#worker-interface}
+*Mobile-First Web View*
+- :icon-list-unordered: **Task List:** Simple, priority-sorted list of jobs.
+- :icon-location: **Navigation:** One-tap deep link to Google Maps.
+- :icon-verified: **Proof of Resolution:** Workers **cannot close a ticket** without uploading a photo. The Vision Agent verifies this photo against the original to confirm the fix.
+
+## Modular Monolith Architecture {#architecture}
+
+The codebase is structured to scale from a Monolith to Microservices easily.
+
+```text
+/
+├── Backend/              # The Core Logic (FastAPI + Async SQLAlchemy)
+│   ├── agents/           # 🧠 The Brain: 7 Autonomous Agents (Vision, Geo, SLA, Priority, Routing, Notification, Escalation)
+│   ├── api/              # Stateless REST Endpoints (Routes)
+│   ├── core/             # Shared Infra (Event Bus, Config)
+│   └── orchestration/    # Agent Base Classes & Workflow Managers
+│   └── Database/         # Database Models & Schemas
+│   └── services/         # Services (Email, Authentication, etc)
+├── User/                 # 📱 Citizen Mobile App (Expo/React Native)
+├── Frontend/             # 💻 Admin & Worker Portals (Next.js 16)
+├── infra/                # ☁️ Docker & Deployment Config
+└── assets/               # Project Screenshots & Media
+```
+
+## Tech Stack {#tech-stack}
+
+- **Backend:** FastAPI, Python, SQLAlchemy, PostgreSQL (PostGIS)
+- **AI/ML:** YOLOv8s (Fine-tuned for urban defects)
+- **Frontend:** Next.js (User/Admin/Worker Web Dashboards), Tailwind CSS
+- **Mobile:** React Native, Expo, TypeScript
+- **Infrastructure:** Supabase (Auth, Storage), Docker
+
+## Key Features {#key-features}
+- :icon-shield-check: **Anti-Fraud Reporting:** Mandatory live camera and high-precision GPS lock to prevent fake reports.
+- :icon-pulse: **Real-Time Tracking:** Server-driven progress visualization for citizens.
+- :icon-check-circle: **Proof of Resolution:** Workers must upload "After" photos to close tickets.
+- :icon-flame: **Heatmaps:** Data-driven insights for city administrators to identify systemic issues.
+
+## Agent Pipeline Details {#agent-pipeline}
+
+**Stage 1: Input & Validation**
+- :icon-eye: **Vision Agent:** Scans images, detects objects (potholes, garbage, debris), rejects spam, classifies issues.
+- :icon-git-merge: **Geo-Temporal Deduplication Agent:** Checks for duplicate issues in space/time, merges reports, increases urgency for repeated reports.
+
+**Stage 2: Decision Making**
+- :icon-law: **Priority Agent:** Assigns severity (CRITICAL, HIGH, MEDIUM, LOW) and SLA deadlines based on context.
+- :icon-hubot: **Routing Agent:** Assigns issues to correct department and worker, optimizes resource allocation.
+
+**Stage 3: Execution & Follow-up**
+- :icon-clock: **SLA Watchdog Agent:** Monitors deadlines, triggers escalation if breached.
+- :icon-alert: **Escalation Agent:** Handles overdue issues, reassigns to supervisors, flags for transparency.
+- :icon-bell: **Notification Agent:** Sends updates to citizens and workers via multiple channels.
+
+## Roadmap & Future Vision {#roadmap}
+
+### Phase 1: The Foundation (Completed)
+- Autonomous Agent Pipeline (Vision, Geo, Priority, Routing, etc).
+- Cross-Platform Ecosystem (Citizen App, Admin Portal, Worker View).
+
+### Phase 2: Predictive Governance
+- :icon-graph: **Predictive Maintenance:** Using historical data to predict potholes before they form (e.g., "Road X cracks every March").
+- :icon-broadcast: **IoT Fusion:** Integrating direct feeds from smart bins and streetlights.
+
+### Phase 3: Gamification
+- :icon-star: **Civic Reputation:** Leaderboards for top contributing citizens.
+- :icon-gift: **Incentives:** Tax credits or transit passes for verified infrastructure reporting.
+

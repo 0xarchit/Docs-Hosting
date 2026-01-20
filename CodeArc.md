@@ -66,7 +66,7 @@ Your chat history is stored locally on your device or browser, giving you comple
 3. **Click** on the **"Create API key"** button.
 4. **Copy** your new API key.
 
-> 📝 **Note**: Keep your API key secure and never share it publicly!
+> [!NOTE]
 > This api key is upto you only we dont collect or store them
 
 ## :icon-rocket: Upcoming Features

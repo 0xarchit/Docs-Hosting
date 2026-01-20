@@ -239,15 +239,3 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License {#license}
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-## Support {#support}
-
-For issues, questions, or contributions, please visit the [GitHub repository](https://github.com/0xarchit/ByokChat).
-
----
-
-**Happy chatting!** 🚀
