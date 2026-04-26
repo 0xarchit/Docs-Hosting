@@ -8,10 +8,10 @@ tags: [PHP, MySQL, Tailwind CSS, Security, FTP]
 
 # :icon-file-directory: Secure FTP Explorer
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/ftp-explorer?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/ftp-explorer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ftp-explorer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ftp-explorer?style=flat-square) [![Website](https://img.shields.io/website?url=https://0xarchit.rf.gd&style=flat-square)](https://0xarchit.rf.gd){target="_blank"}
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=php) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=mysql) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=tailwind-css) ![License](https://img.shields.io/github/license/0xarchit/ftp-explorer?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ftp-explorer?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ftp-explorer?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Forks](https://img.shields.io/github/forks/0xarchit/ftp-explorer?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![Website](https://img.shields.io/website?url=https://0xarchit.rf.gd&style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=html5)](https://0xarchit.rf.gd){target="_blank"}
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/ftp-explorer](https://github.com/0xarchit/ftp-explorer){target="_blank"}  
+:icon-mark-github: **GitHub:** [0xarchit/ftp-explorer](https://github.com/0xarchit/ftp-explorer){target="_blank"}  
 **:icon-globe: Live Demo:** [https://0xarchit.rf.gd](https://0xarchit.rf.gd){target="_blank"}
 
 > [!TIP]

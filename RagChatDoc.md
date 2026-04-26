@@ -8,12 +8,12 @@ tags: [RAG, FastAPI, React, Milvus, Mistral, Gradio, LangChain, ChromaDB, Gemini
 
 # RAG Projects: ChatDoc + AI/ML/GenAI Mentor Chatbot
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Milvus](https://img.shields.io/badge/Milvus-VectorDB-00A1EA?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/ChatDoc?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/ChatDoc?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ChatDoc?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ChatDoc?style=flat-square) [![Website](https://img.shields.io/website?url=https://chatdoc.0xarchit.is-a.dev&style=flat-square)](https://chatdoc.0xarchit.is-a.dev){target="_blank"}
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=fastapi) ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=react) ![Milvus](https://img.shields.io/badge/Milvus-VectorDB-00A1EA?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=milvus) ![License](https://img.shields.io/github/license/0xarchit/ChatDoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ChatDoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ChatDoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Forks](https://img.shields.io/github/forks/0xarchit/ChatDoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![Website](https://img.shields.io/website?url=https://chatdoc.0xarchit.is-a.dev&style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=html5)](https://chatdoc.0xarchit.is-a.dev){target="_blank"}
 
 
-**:icon-mark-github: GitHub:** [0xarchit/ChatDoc](https://github.com/0xarchit/ChatDoc){target="_blank"}  
-**:icon-mark-github: GitHub:** [0xarchit/DocumentChat-Simple-Rag-VectorDB-Project](https://github.com/0xarchit/DocumentChat-Simple-Rag-VectorDB-Project){target="_blank"}
+**GitHub:** [0xarchit/ChatDoc](https://github.com/0xarchit/ChatDoc){target="_blank"}  
+**GitHub:** [0xarchit/DocumentChat-Simple-Rag-VectorDB-Project](https://github.com/0xarchit/DocumentChat-Simple-Rag-VectorDB-Project){target="_blank"}
 
 ## Page Contents
 
@@ -35,10 +35,10 @@ tags: [RAG, FastAPI, React, Milvus, Mistral, Gradio, LangChain, ChromaDB, Gemini
 
 
 # ChatDoc
-**:icon-mark-github: GitHub:** [0xarchit/ChatDoc](https://github.com/0xarchit/ChatDoc){target="_blank"}  
-**:icon-globe: Live Demo:** [https://chatdoc.0xarchit.is-a.dev](https://chatdoc.0xarchit.is-a.dev){target="_blank"} 
+**GitHub:** [0xarchit/ChatDoc](https://github.com/0xarchit/ChatDoc){target="_blank"}  
+**:icon-globe: Live Demo:** [https://chatdoc.0xarchit.is-a.dev](https://chatdoc.0xarchit.is-a.dev){target="_blank"}
 
-![License](https://img.shields.io/github/license/0xarchit/chatdoc) [![GitHub stars](https://img.shields.io/github/stars/0xarchit/chatdoc?style=social)](https://github.com/0xarchit/chatdoc/stargazers) ![GitHub issues](https://img.shields.io/github/issues/0xarchit/chatdoc)
+![License](https://img.shields.io/github/license/0xarchit/chatdoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![GitHub stars](https://img.shields.io/github/stars/0xarchit/chatdoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)](https://github.com/0xarchit/chatdoc/stargazers) ![GitHub issues](https://img.shields.io/github/issues/0xarchit/chatdoc?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)
 
 > A unified retrieval-augmented generation (RAG) document API and web interface, powered by FastAPI, React, Vite, Milvus, and MistralAI.
 
@@ -172,7 +172,7 @@ docker run --rm -p 8080:8080 \
 
 # AI/ML/GenAI Mentor Chatbot {#ai-ml-genai-mentor-chatbot}
 
-**:icon-mark-github: GitHub:** [0xarchit/DocumentChat-Simple-Rag-VectorDB-Project](https://github.com/0xarchit/DocumentChat-Simple-Rag-VectorDB-Project){target="_blank"} 
+**GitHub:** [0xarchit/DocumentChat-Simple-Rag-VectorDB-Project](https://github.com/0xarchit/DocumentChat-Simple-Rag-VectorDB-Project){target="_blank"} 
 
 This vibe coded project provides an AI/ML/GenAI Mentor Chatbot built with Gradio, LangChain, ChromaDB, and Google Gemini. You can run the notebook in Google Colab to interact with the chatbot.
 
@@ -228,4 +228,4 @@ This project combines several modern AI tools to create an interactive mentor ch
 
 ## Clearing Data
 
-- To clear all uploaded documents and chat history, run the **Clear All Data** button in the interface.
+- To clear all uploaded documents and chat histor                                                        

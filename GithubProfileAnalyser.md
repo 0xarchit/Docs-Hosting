@@ -1,377 +1,187 @@
 ---
 label: GitHub Profile Analyzer
 icon: mark-github
-description: "Serverless GitHub profile analytics with Cloudflare Workers UI, APIs, SVG heatmap, badges, and optional AI analysis."
+description: "Comprehensive GitHub profile analysis tool with AI-powered scoring, real-time metrics, and exportable reports."
 order: 90
-tags: [Cloudflare Workers, JavaScript, GitHub API, SVG, AI]
+tags: [Next.js, TypeScript, Bun, PostgreSQL, AI, JWT, PDF]
 ---
 
 # GitHub Profile Analyzer
 
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![GitHub API](https://img.shields.io/badge/GitHub_API-181717?style=flat-square&logo=github&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/github-profile-analyzer?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/github-profile-analyzer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/github-profile-analyzer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/github-profile-analyzer?style=flat-square) [![Website](https://img.shields.io/website?url=https://github.0xarchit.is-a.dev&style=flat-square)](https://github.0xarchit.is-a.dev){target="_blank"}
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=000000&color=000000) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=000000&color=000000) ![Bun](https://img.shields.io/badge/Bun-F9F1E1?style=for-the-badge&logo=bun&logoColor=white&labelColor=000000&color=000000) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/github-profile-analyzer?style=for-the-badge&logo=mit&logoColor=white&labelColor=000000&color=000000)  
+![Stars](https://img.shields.io/github/stars/0xarchit/github-profile-analyzer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/github-profile-analyzer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Forks](https://img.shields.io/github/forks/0xarchit/github-profile-analyzer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) [![Website](https://img.shields.io/website?url=https://github.0xarchit.is-a.dev&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://github.0xarchit.is-a.dev){target="_blank"}
 
-:icon-mark-github: **GitHub**: [0xarchit/github-profile-analyzer](https://github.com/0xarchit/github-profile-analyzer){target="_blank"}  
-:icon-globe: **Live Demo**: [https://github.0xarchit.is-a.dev](https://github.0xarchit.is-a.dev){target="_blank"}
-> AI Powered Github Profile analyzer and reviewer tool. Gives review based on first 100 repos and only includes those forks in which user has contributions to avoid fake results
+:icon-mark-github: **GitHub:** [0xarchit/github-profile-analyzer](https://github.com/0xarchit/github-profile-analyzer){target="_blank"}  
+:icon-globe: **Live Demo:** [https://github.0xarchit.is-a.dev](https://github.0xarchit.is-a.dev){target="_blank"}
 
-Serverless GitHub profile analytics you can deploy in minutes. This project ships:
+> [!TIP]
+> Comprehensive GitHub profile analysis tool with AI-powered scoring, real-time metrics, and exportable reports.
 
-- :icon-file-code: A single, production-ready Cloudflare Worker (`worker.js`) that powers the UI and APIs
-- :icon-graph: Two demo Workers for standalone usage: `contri-graph.js` (SVG contribution heatmap) and `badge.js` (achievement badges)
+## :icon-tools: Features
 
-This README documents every API, parameters, responses, configuration, and how the system works end-to-end.
+### Profile Analysis
+- :icon-hubot: **AI-Driven Evaluation**: Detailed scoring and developer type classification
+- :icon-code: **Language Detection**: Proficiency analysis across your repositories
+- :icon-repo: **Repository Analysis**: Contribution metrics and project insights
 
----
+### Authentication & Security
+- :icon-key: **GitHub OAuth 2.0**: Secure authentication flow
+- :icon-shield: **JWT Sessions**: Token-based session management with jose
+- :icon-lock: **AES-256-GCM Encryption**: Protects sensitive data at rest
+- :icon-alert: **Rate Limiting**: Upstash Rate Limit for abuse prevention
+- :icon-shield: **Security**: SQL injection and XSS protection
 
-## Contents
+### Data & Export
+- :icon-calendar: **Contribution Calendar**: Real-time parsing and streak calculation
+- :icon-file: **PDF Reports**: Generate exportable reports with profile snapshots
+- :icon-database: **Encrypted Storage**: Secure analysis history and snapshots
 
-- [Overview and architecture](#overview-and-architecture)
-- [Important Highlight](#important-highlights)
-- [Configuration (tokens, origins, env)](#configuration)
-- [API reference: worker.js (all-in-one)](#api-reference-workerjs-all-in-one)
-- [API reference: contri-graph.js (demo)](#api-reference-contri-graphjs-demo)
-- [API reference: badge.js (demo)](#api-reference-badgejs-demo)
-- [Caching, rate limits, and security](#caching-rate-limits-and-security)
-- [Examples and embeds](#examples-and-embeds)
-- [Deploy with Cloudflare Workers](#deploy-with-cloudflare-workers)
-- [Troubleshooting](#troubleshooting)
+### Performance
+- :icon-zap: **Redis Caching**: Upstash Redis for response caching
+- :icon-graph: **Optimized Queries**: Efficient Neon PostgreSQL operations
+- :icon-sync: **Concurrent Handling**: Built for high-throughput with Bun runtime
 
----
+### User Experience
+- :icon-star: **Star Verification**: Access control through repository stars
+- :icon-person: **Guest Sessions**: Limited access without authentication
+- :icon-gear: **User Settings**: Personalized preferences
+- :icon-device-desktop: **Responsive UI**: Tailwind CSS with dark mode support
 
-## Overview and architecture
+## :icon-stack: System Architecture
 
-`worker.js` handles:
-
-- GET `/` — serves a built-in Tailwind UI that calls the APIs
-- GET `/rate_limit` — aggregates GitHub REST API rate limits across multiple tokens
-- GET `/contributions?username=<user>` — returns an SVG heatmap of public contributions
-- GET `/api?username=<user>` — returns a unified JSON: profile, repos, authored forks, badges, and an AI analysis
-
-Additionally, the UI embeds third‑party stat images (readme-stats, streaks, trophies) and provides print/save features. The Worker enforces CORS for sensitive endpoints and uses both CDN and browser caching to reduce API load.
-
-Demo Workers:
-
-- :icon-graph: `contri-graph.js`: minimal, tokenized SVG generator for contribution heatmaps
-- :icon-star: `badge.js`: minimal badge resolver that returns unlocked GitHub achievements and their image URLs
-
----
-
-## Important Highlights
-
-- :icon-database: **Local Storage Caching:** All API responses are cached in the browser's local storage for 1 hour, minimizing redundant requests and improving performance for repeat visits.
-- :icon-repo: **Repository Limit:** Only the first 100 repositories (sorted by GitHub's default order) are processed for contribution and badge analysis, ensuring fast response times.
-- :icon-git-branch: **Fork Filtering:** For forked repositories, only those in which the user has made at least one commit are included in the analysis. This ensures the stats and graphs reflect the user's actual contributions, not just forks with no activity.
-- :icon-link-external: **Permanent Page URLs:** Each analyzed profile can be accessed via a unique, shareable URL, allowing you to revisit or share the analysis page at any time.
-- :icon-file: **Download & Print to PDF:** The analysis page can be downloaded or saved as a PDF (using your browser's "Print to PDF" feature) for offline viewing or sharing.
-
-## Configuration
-
-Open `worker.js` and customize:
-
-- :icon-key: `const githubTokens = ["api_keys"];`
-    - Array of one or more GitHub personal access tokens (classic or fine‑grained) with public repo read permissions.
-    - Used for REST and GraphQL calls; one is randomly chosen per request.
-
-- :icon-hubot: `const cerebrasKeys = ["api_keys"];`
-    - Array of Cerebras API keys, used to call `https://api.cerebras.ai/v1/chat/completions` for the AI section.
-    - If unavailable, the `/api` route will fail at the AI step. Provide a key or adjust the code to disable AI.
-
-- :icon-link: `const FRONTEND_ORIGIN = 'deployemnt_link';`
-    - Only requests where the Origin/Referer starts with this string are allowed for `/api` and `/contributions`.
-    - Example: `https://git.yourdomain.workers.dev` or `https://your-frontend.example.com`.
-
-Other noteworthy constants and behavior:
-
-- :icon-trophy: Badge slugs checked: pull-shark, starstruck, pair-extraordinaire, galaxy-brain, yolo, quickdraw, highlight, community, deep-diver, arctic-code-vault-contributor, public-sponsor, heart-on-your-sleeve, open-sourcerer
-- :icon-verified: Achievements are validated via a cheap `HEAD` probe to `https://github.com/<user>?tab=achievements&achievement=<slug>`
-- :icon-star: Star gating: `/api` checks if the user has starred `0xarchit/github-profile-analyzer` and returns 403 otherwise. You can change this repo string inside `worker.js` if needed.
-
----
-
-## API reference: worker.js (all-in-one)
-
-> [!IMPORTANT]
-> :icon-shield: Protected routes (`/api`, `/contributions`) enforce strict CORS using `FRONTEND_ORIGIN`. Ensure your site origin matches to avoid 403 errors.
-
-Base URL: your Cloudflare Worker URL (for development examples we’ll use `https://<your-worker>.workers.dev`).
-
-Security and CORS:
-
-- :icon-shield: `/api` and `/contributions` require the request Origin or Referer to start with `FRONTEND_ORIGIN`.
-- :icon-info: `/rate_limit` and `/` do not enforce this CORS check.
-
-Common errors:
-
-- :icon-shield: 403 Cross-origin requests are not allowed — Origin/Referer mismatch for protected routes
-- :icon-star: 403 You have not starred the repository — star-gating rule in `/api`
-- :icon-clock: 429 GitHub API rate limit exceeded — aggregate remaining is 0 across selected token
-- :icon-bug: 500 Worker error — unexpected runtime error
-
-### GET `/`
-
-Serves the built-in UI. Supports `?username=<user>` to pre-fill and auto-run.
-
-### GET `/rate_limit`
-
-Aggregates GitHub rate-limit across all tokens defined in `githubTokens`.
-
-Response 200 application/json:
-
-```jsonc
-{
-    "rate": { "limit": number, "used": number, "remaining": number }
-}
+```mermaid
+graph TD
+    A[User Browser] -->|OAuth Login| B[Next.js App]
+    B -->|Authenticate| C[GitHub OAuth]
+    C -->|Callback| B
+    
+    B -->|Analyze Profile| D[API Routes]
+    D -->|Fetch Data| E[GitHub API]
+    D -->|Cache| F[Upstash Redis]
+    D -->|Store| G[Neon PostgreSQL]
+    
+    D -->|AI Analysis| H[AI Model]
+    D -->|Generate| I[PDF Report]
+    
+    B -->|Display| J[Dashboard]
+    J -->|Settings| K[User Preferences]
+    J -->|History| L[Analysis Snapshots]
 ```
 
-Notes:
+## :icon-gear: Tech Stack
 
-- Calls `https://api.github.com/rate_limit` once per token and sums fields from `data.rate`.
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Next.js 16 with React 19 |
+| **Language** | TypeScript |
+| **Runtime** | Bun |
+| **Database** | Neon PostgreSQL |
+| **Authentication** | JWT with jose, GitHub OAuth 2.0 |
+| **Caching** | Upstash Redis |
+| **Rate Limiting** | Upstash Rate Limit |
+| **PDF Generation** | react-pdf |
+| **Styling** | Tailwind CSS |
+| **Validation** | Zod schemas |
 
-### GET `/contributions?username=<user>`
+## :icon-play: Getting Started
 
-Returns an SVG heatmap representing the user’s public contributions. Internally uses GitHub GraphQL API.
+### Prerequisites
 
-Parameters:
+- Bun runtime
+- GitHub OAuth application credentials
+- Neon PostgreSQL database
+- Upstash Redis instance
 
-- `username` (required): GitHub login
+### Installation
 
-Behavior:
-
-- Queries `contributionsCollection.contributionCalendar.weeks[].contributionDays[]`
-- Computes a max intensity, renders a 7×N grid (weeks×days)
-- Colors: `#2f3727` for zero; `rgba(0,255,0, alpha)` for >0 with alpha scaled by intensity
-- CDN caching: `Cache-Control: public, max-age=3600` and saved in `caches.default` by URL
-
-Responses:
-
-- 200 image/svg+xml — SVG content
-- 400 application/json — `{ error: "Username parameter is required" }`
-- 403 application/json — CORS blocked (`FRONTEND_ORIGIN` mismatch)
-- 4xx/5xx application/json — GitHub API errors forwarded with message
-
-Embed example (HTML):
-
-```html
-<img src="https://<your-worker>.workers.dev/contributions?username=octocat" alt="octocat contributions"/>
+```bash
+git clone https://github.com/0xarchit/github-profile-analyzer.git
+cd github-profile-analyzer
+bun install
 ```
 
-### GET `/api?username=<user>`
+### Environment Variables
 
-Returns a unified JSON combining public profile, repositories, authored forks, unlocked badges, and an AI analysis.
+Create a `.env.local` file:
 
-Parameters:
-
-- `username` (required)
-
-Request pre-checks:
-
-- CORS: Origin/Referer must start with `FRONTEND_ORIGIN`
-- Rate limit: queries `https://api.github.com/rate_limit`; if `remaining` is 0 returns 429
-- Star gating: fetches `GET /users/<user>/starred?per_page=1000&page=1` and checks presence of `0xarchit/github-profile-analyzer`. If missing, returns 403 with `{ showPopup: true }` to instruct the UI to show a “Star this repo” prompt
-
-Collection logic:
-
-- Profile via `GET /users/<user>`
-- Repositories via `GET /users/<user>/repos?per_page=100&page=1`
-    - Only first 100 repos considered
-    - Two buckets are returned:
-        - `original_repos`: non-forks
-        - `authored_forks`: forks where the user has at least one commit (checked with `GET /repos/<user>/<repo>/commits?per_page=100` and matching `author.login === <user>`)
-- Badges via achievement `HEAD` checks for known slugs
-- AI via Cerebras chat completions with a JSON-only system prompt; model `llama-4-scout-17b-16e-instruct`
-
-Response 200 application/json (shape):
-
-```jsonc
-{
-    "avatar": string | null,
-    "username": string | null,
-    "name": string | null,
-    "company": string | null,
-    "location": string | null,
-    "blog": string | null,
-    "bio": string | null,
-    "email": string | null,
-    "twitter": string | null,
-    "followers": number,
-    "following": number,
-    "public_repo_count": number,
-    "original_repos": {
-        "<repoName>": {
-            "description": string | null,
-            "stars": number,
-            "forks": number,
-            "issues": number,
-            "watchers": number,
-            "primary_lang": string | null,
-            "has_issues": boolean,
-            "has_projects": boolean,
-            "has_wiki": boolean,
-            "has_pages": boolean,
-            "has_downloads": boolean,
-            "has_discussions": boolean,
-            "license": object,
-            "topics": string[]
-        },
-        ...
-    },
-    "authored_forks": { ...same shape as above... },
-    "badges": { "<slug>": "<imageUrl>", ... },
-
-    // AI section (from Cerebras)
-    "score": number,                 // 0..100
-    "detailed_analysis": string,
-    "improvement_areas": string[],
-    "diagnostics": string[],
-    "project_ideas": {
-        "project_idea_1": { "title": string, "description": string, "tech stack"?: string[], "tech_stack"?: string[] },
-        "project_idea_2": { ... },
-        "project_idea_3"?: { ... }
-    },
-    "tag"?: { "tag_name"?: string, "description"?: string, ... },
-    "developer_type"?: string
-}
+```env
+GITHUB_TOKENS=
+NEXT_PUBLIC_APP_URL=
+GITHUB_PAT_TOKENS=
+GITHUB_MODEL=
+DATABASE_WRITE=
+DATABASE_READ=
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+JWT_SECRET=
+UPSTASH_TOKEN=
+UPSTASH_URL=
+ENCRYPTION_SECRET=
 ```
 
-Error responses:
+### Development
 
-- 400 `{ error: "Username parameter is required" }`
-- 403 `{ error: "Cross-origin requests are not allowed" }`
-- 403 `{ error: "You have not starred the 0xarchit/github-profile-analyzer repository", showPopup: true }`
-- 429 `{ error: "GitHub API rate limit exceeded" }`
-- 4xx/5xx `{ error: "Failed to fetch ..." }`
-
-Notes and limitations:
-
-- Commit check for authored forks examines up to 100 latest commits per repo; earlier commits may be missed
-- Only public data is analyzed; private repos and private contributions are invisible
-- If Cerebras call fails, the route returns an error; you may opt to try/catch and continue without AI
-
----
-
-## API reference: contri-graph.js (demo)
-
-This is a minimal Worker that returns an SVG heatmap. It expects you to set a single GitHub token inside the file.
-
-Route: GET `/?username=<user>`
-
-Parameters:
-
-- `username` (required)
-
-Behavior and differences vs `worker.js`:
-
-- No CORS check
-- Requires `const token = "<YOUR_GITHUB_TOKEN>"` to be set
-- Returns SVG with the same visual logic (7×N grid, intensity scaling)
-
-Responses:
-
-- :icon-check: 200 image/svg+xml — heatmap
-- :icon-alert: 400 `{ error: "Username is required" }`
-- :icon-alert: 500 `{ error: "GitHub token not configured" }` or forwarded API errors
-
----
-
-## API reference: badge.js (demo)
-
-This is a minimal Worker that resolves GitHub achievement badges for a user.
-
-Route: GET `/?username=<user>`
-
-Parameters:
-
-- `username` (required)
-
-Behavior:
-
-- Issues `HEAD` probes to each known achievement URL
-- If 200, includes the badge slug and its official image URL in the response
-
-Response 200 application/json:
-
-```jsonc
-{
-    "pull-shark": "https://...png",
-    "starstruck": "https://...png",
-    ...
-}
+```bash
+bun run dev
 ```
 
-Errors:
+Server runs on http://localhost:3000
 
-- :icon-alert: 500 `{ error: "No username provided" }` or network errors
+### Production Build
 
----
-
-## Caching, rate limits, and security
-
-- Cloudflare cache: `/contributions` responses cached for 1 hour (`Cache-Control: public, max-age=3600`) keyed by URL
-- Browser cache: the UI stores `/api` responses in `localStorage` for 1 hour per username key
-- Token rotation: each server call picks a random token from `githubTokens`
-- CORS: `/api` and `/contributions` enforce `FRONTEND_ORIGIN` via Origin/Referer check
-
----
-
-## Examples and embeds
-
-PowerShell (Windows) examples:
-
-```powershell
-# Rate limit
-irm "https://<your-worker>.workers.dev/rate_limit" | ConvertTo-Json
-
-# Contributions SVG (save to file)
-irm "https://<your-worker>.workers.dev/contributions?username=octocat" -OutFile contrib.svg
-
-# Unified analysis JSON
-irm "https://<your-worker>.workers.dev/api?username=octocat" | ConvertTo-Json
+```bash
+bun run build
+bun run start
 ```
 
-HTML embed for heatmap:
+## :icon-diff: API Routes
 
-```html
-<img src="https://<your-worker>.workers.dev/contributions?username=octocat" alt="octocat contributions heatmap" />
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/analyze` | Analyze GitHub profile |
+| `GET` | `/api/contributions` | Fetch contribution data |
+| `GET` | `/api/star-status` | Verify star status |
+| `GET` | `/api/scans/[id]` | Retrieve scan results |
+| `POST` | `/api/auth/github` | Initiate GitHub OAuth |
+| `GET` | `/api/auth/github/callback` | OAuth callback handler |
+| `GET` | `/api/auth/me` | Get current user |
+| `POST` | `/api/auth/logout` | Logout user |
+| `GET` | `/api/users/settings` | Fetch user settings |
+| `POST` | `/api/users/settings` | Update user settings |
+
+## :icon-file-directory: Project Structure
+
+```
+src/
+├── app/                 # Next.js app router
+│   ├── api/            # API route handlers
+│   ├── auth/           # Authentication pages
+│   └── dashboard/      # User dashboard
+├── components/          # React components
+│   ├── ui/             # Reusable UI elements
+│   └── features/       # Feature-specific components
+├── lib/                 # Utilities and helpers
+│   ├── auth.ts         # Authentication utilities
+│   ├── db.ts           # Database connection
+│   └── cache.ts        # Redis caching
+└── types/               # TypeScript type definitions
 ```
 
----
+## :icon-pencil: Contributing
 
-## Deploy with Cloudflare Workers
+Contributions are welcome! Please follow these steps:
 
-1) Add your tokens in `worker.js`:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- :icon-key: `githubTokens`: at least one GitHub token
-- :icon-hubot: `cerebrasKeys`: one Cerebras key (or adjust code to skip AI)
-- :icon-link: `FRONTEND_ORIGIN`: your site origin that’s permitted to call the protected endpoints
+## :icon-shield: Security
 
-2) Deploy
+The project implements:
 
-- :icon-rocket: Via dashboard: create a Worker, paste `worker.js`, deploy
-- :icon-terminal: Via Wrangler: create a project and set `main` to `worker.js`, then `wrangler deploy`
-
-
-:::buttons
-[Cloudflare Dashboard :icon-cloud:](https://dash.cloudflare.com/){target="_blank"}  
-[Wrangler CLI Guide :icon-terminal:](https://developers.cloudflare.com/workers/wrangler/){target="_blank"}
-:::
-
----
-
-## Troubleshooting
-
-- 403 Cross-origin requests are not allowed
-    - Ensure your request Origin/Referer starts with `FRONTEND_ORIGIN`
-
-- 403 You have not starred the repository
-    - Star `https://github.com/0xarchit/github-profile-analyzer`
-    - Or edit the repository name string inside `worker.js`
-
-- 429 GitHub API rate limit exceeded
-    - Add more tokens to `githubTokens` or wait for reset
-
-- Blank/low data
-    - Private repos and private contributions aren’t visible; only public data is analyzed
-    - Authored-forks detection checks only the last 100 commits per repo
-
----
+- AES-256-GCM encryption for sensitive data
+- Rate limiting and abuse prevention
+- SQL injection and XSS protection
+- JWT-based session management

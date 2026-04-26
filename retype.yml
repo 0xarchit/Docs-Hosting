@@ -24,7 +24,6 @@ markdown:
 # Theme configuration
 theme:
   light: lumen
-  dark: carbon
 defaultTheme: auto
 
 # Metadata

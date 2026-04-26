@@ -8,12 +8,12 @@ tags: [Next.js, FastAPI, NLP, RAG, Milvus]
 
 # :icon-file: AI-Powered Bill Sentiment Analysis
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![NLP](https://img.shields.io/badge/NLP-RAG-blue?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/BillsSentiments?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/BillsSentiments?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/BillsSentiments?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/BillsSentiments?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=000000) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=000000&color=000000) ![NLP](https://img.shields.io/badge/NLP-RAG-blue?style=for-the-badge&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/BillsSentiments?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000)    
+![Stars](https://img.shields.io/github/stars/0xarchit/BillsSentiments?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/BillsSentiments?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Forks](https://img.shields.io/github/forks/0xarchit/BillsSentiments?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000)
 
 **BillsSentiments** is an advanced AI-driven analytical dashboard built to tackle the challenge of manually analyzing thousands of public stakeholder comments on draft legislations.
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/BillsSentiments](https://github.com/0xarchit/BillsSentiments){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/BillsSentiments](https://github.com/0xarchit/BillsSentiments){target="_blank"}
 
 ## :icon-rocket: Overview {#overview}
 

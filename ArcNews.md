@@ -8,13 +8,13 @@ tags: [React, TypeScript, Cloudflare Workers, D1, FastAPI, Node.js, Puppeteer, S
 
 # ArcNews
 
-![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/ArcNews-DashBoard?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/ArcNews-DashBoard?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ArcNews-DashBoard?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ArcNews-DashBoard?style=flat-square) [![Website](https://img.shields.io/website?url=https://arcnews.0xarchit.is-a.dev&style=flat-square)](https://arcnews.0xarchit.is-a.dev){target="_blank"}
+![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=white&labelColor=000000&color=000000) ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=000000&color=000000) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/ArcNews-DashBoard?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)    
+![Stars](https://img.shields.io/github/stars/0xarchit/ArcNews-DashBoard?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ArcNews-DashBoard?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Forks](https://img.shields.io/github/forks/0xarchit/ArcNews-DashBoard?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![Website](https://img.shields.io/website?url=https://arcnews.0xarchit.is-a.dev&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://arcnews.0xarchit.is-a.dev){target="_blank"}
 
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/ArcNews-DashBoard/](https://github.com/0xarchit/ArcNews-DashBoard/){target="_blank"}  
-**:icon-globe: Live Demo:** [https://arcnews.0xarchit.is-a.dev](https://arcnews.0xarchit.is-a.dev){target="_blank"}  
-**:icon-pulse: Backend & Frontend Status:** [https://arcnewsapi.0xarchit.is-a.dev](https://arcnewsapi.0xarchit.is-a.dev){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/ArcNews-DashBoard](https://github.com/0xarchit/ArcNews-DashBoard){target="_blank"}  
+:icon-globe: **Live Demo:** [arcnews.0xarchit.is-a.dev](https://arcnews.0xarchit.is-a.dev){target="_blank"}  
+:icon-pulse: **Backend & Frontend Status:** [arcnewsapi.0xarchit.is-a.dev](https://arcnewsapi.0xarchit.is-a.dev){target="_blank"}
 
 ---
 

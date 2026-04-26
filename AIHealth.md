@@ -8,13 +8,13 @@ tags: [Next.js, Tailwind CSS, Gemini API, 3D, Health]
 
 # :icon-heart: AI Health - Smart Nutrition Analysis
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=google&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/AI-Health?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/AI-Health?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/AI-Health?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/AI-Health?style=flat-square) [![Website](https://img.shields.io/website?url=https://aihealth.0xarchit.is-a.dev/&style=flat-square)](https://aihealth.0xarchit.is-a.dev/){target="_blank"}
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white&labelColor=000000&color=000000) ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=000000&color=000000) ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=google&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/AI-Health?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github)    
+![Stars](https://img.shields.io/github/stars/0xarchit/AI-Health?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/AI-Health?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Forks](https://img.shields.io/github/forks/0xarchit/AI-Health?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![Website](https://img.shields.io/website?url=https://aihealth.0xarchit.is-a.dev/&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://aihealth.0xarchit.is-a.dev/){target="_blank"}
 
 **AI Health** is a secure web application that empowers users to analyze food images using their own personal AI quota. By leveraging Google's Gemini API via OAuth, users can get detailed nutrition breakdowns without relying on a shared developer key or paid subscription.
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/AI-Health](https://github.com/0xarchit/AI-Health){target="_blank"}  
-**:icon-globe: Live Project:** [https://aihealth.0xarchit.is-a.dev](https://aihealth.0xarchit.is-a.dev){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/AI-Health](https://github.com/0xarchit/AI-Health){target="_blank"}  
+:icon-globe: **Live Project:** [https://aihealth.0xarchit.is-a.dev](https://aihealth.0xarchit.is-a.dev){target="_blank"}
 
 ## 🚀 How It Works {#how-it-works}
 

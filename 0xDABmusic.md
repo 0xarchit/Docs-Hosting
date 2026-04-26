@@ -10,8 +10,8 @@ tags: [Go, Wails, React, Music, Privacy]
 
 **Download, Convert, Listen all at one place.**
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Wails](https://img.shields.io/badge/Wails-E32636?style=flat-square&logo=wails&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/0xDABmusic?style=flat-square)  
-![Stars](https://img.shields.io/github/stars/0xarchit/0xDABmusic?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/0xDABmusic?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/0xDABmusic?style=flat-square) [![Website](https://img.shields.io/website?url=https://dab.0xarchit.is-a.dev/&style=flat-square)](https://dab.0xarchit.is-a.dev/){target="_blank"}
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=go) ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=react) ![Wails](https://img.shields.io/badge/Wails-E32636?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=wails) ![License](https://img.shields.io/github/license/0xarchit/0xDABmusic?style=for-the-badge&logoColor=white&labelColor=000000&color=000000)  
+![Stars](https://img.shields.io/github/stars/0xarchit/0xDABmusic?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/0xDABmusic?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) ![Forks](https://img.shields.io/github/forks/0xarchit/0xDABmusic?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github) [![Website](https://img.shields.io/website?url=https://dab.0xarchit.is-a.dev/&style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=html5)](https://dab.0xarchit.is-a.dev/){target="_blank"}
 
 ## :icon-rocket: Why 0xDABmusic? {#why-0xdabmusic}
 

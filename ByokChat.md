@@ -8,11 +8,11 @@ tags: [Next.js, TypeScript, AI, Chat, Zustand, IndexedDB, Shadcn UI]
 
 # BYOK Chat Platform (Next.js)
 
-![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![AI](https://img.shields.io/badge/AI-Gemini-orange?style=flat-square) ![License](https://img.shields.io/github/license/0xarchit/ByokChat?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/ByokChat?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ByokChat?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/ByokChat?style=flat-square) [![Website](https://img.shields.io/website?url=https://byok.0xarchit.is-a.dev&style=flat-square)](https://byok.0xarchit.is-a.dev){target="_blank"}
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=000000&color=000000) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&labelColor=000000&color=000000) ![AI](https://img.shields.io/badge/AI-Gemini-orange?style=for-the-badge&logo=google&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/ByokChat?style=for-the-badge&logo=mit&logoColor=white&labelColor=000000&color=000000)  
+![Stars](https://img.shields.io/github/stars/0xarchit/ByokChat?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/ByokChat?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Forks](https://img.shields.io/github/forks/0xarchit/ByokChat?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) [![Website](https://img.shields.io/website?url=https://byok.0xarchit.is-a.dev&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://byok.0xarchit.is-a.dev){target="_blank"}
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/ByokChat](https://github.com/0xarchit/ByokChat){target="_blank"}  
-**:icon-globe: Live Demo:** [https://byok.0xarchit.is-a.dev](https://byok.0xarchit.is-a.dev){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/ByokChat](https://github.com/0xarchit/ByokChat){target="_blank"}  
+:icon-globe: **Live Demo:** [https://byok.0xarchit.is-a.dev](https://byok.0xarchit.is-a.dev){target="_blank"}
 
 
 > [!TIP]

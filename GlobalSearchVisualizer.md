@@ -8,12 +8,12 @@ tags: [Python, FastAPI, React, TypeScript, Playwright, Proxies, SEO, Tailwind CS
 
 # :icon-globe: Global Search Visualizer
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![License](https://img.shields.io/github/license/0xarchit/global-search-visualizer?style=flat-square)  
-![Stars](https://img.shields.io/github/stars/0xarchit/global-search-visualizer?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/global-search-visualizer?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/global-search-visualizer?style=flat-square) [![Website](https://img.shields.io/website?url=https://global-view.0xarchit.is-a.dev&style=flat-square)](https://global-view.0xarchit.is-a.dev){target="_blank"}
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000000&color=000000) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=000000&color=000000) ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/global-search-visualizer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000)  
+![Stars](https://img.shields.io/github/stars/0xarchit/global-search-visualizer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/global-search-visualizer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Forks](https://img.shields.io/github/forks/0xarchit/global-search-visualizer?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) [![Website](https://img.shields.io/website?url=https://global-view.0xarchit.is-a.dev&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://global-view.0xarchit.is-a.dev){target="_blank"}
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/global-search-visualizer](https://github.com/0xarchit/global-search-visualizer){target}  
-**:icon-globe: Live Project:** [https://global-view.0xarchit.is-a.dev](https://global-view.0xarchit.is-a.dev){target="_blank"}  
-**:icon-globe: Explore Backend API:** [https://global-search-api.0xarchit.is-a.dev](https://global-search-api.0xarchit.is-a.dev/docs){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/global-search-visualizer](https://github.com/0xarchit/global-search-visualizer){target="_blank"}  
+:icon-globe: **Live Project:** [global-view.0xarchit.is-a.dev](https://global-view.0xarchit.is-a.dev){target="_blank"}  
+:icon-beaker: **Explore Backend API:** [global-search-api.0xarchit.is-a.dev/docs](https://global-search-api.0xarchit.is-a.dev/docs){target="_blank"}
 
 > [!TIP]
 > :icon-rocket: Quick start: Clone the repo, install dependencies, run `python start.py` to launch both backend and frontend servers.

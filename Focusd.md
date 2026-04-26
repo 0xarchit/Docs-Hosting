@@ -23,11 +23,11 @@ tags: [Go, Privacy, Windows, Productivity]
 
 **Track your screen time. Own your data. No cloud required.**
 
-![License](https://img.shields.io/github/license/0xarchit/focusd?style=flat-square) ![Release](https://img.shields.io/github/v/release/0xarchit/focusd?style=flat-square&color=22d3ee) ![Build Status](https://img.shields.io/github/actions/workflow/status/0xarchit/focusd/release.yml?style=flat-square&label=Build%20Status) [![Website](https://img.shields.io/website?url=https%3A%2F%2Ffocusd.0xarchit.is-a.dev&style=flat-square)](https://focusd.0xarchit.is-a.dev/){target="_blank"}  
-![Stars](https://img.shields.io/github/stars/0xarchit/focusd?style=flat-square&color=yellow) ![Downloads](https://img.shields.io/github/downloads/0xarchit/focusd/total?style=flat-square&color=orange) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/focusd?style=flat-square&color=blue)
+![License](https://img.shields.io/github/license/0xarchit/focusd?style=for-the-badge&logoColor=white&labelColor=000000&color=000000) ![Release](https://img.shields.io/github/v/release/0xarchit/focusd?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&color=22d3ee) ![Build Status](https://img.shields.io/github/actions/workflow/status/0xarchit/focusd/release.yml?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&label=Build%20Status) [![Website](https://img.shields.io/website?url=https%3A%2F%2Ffocusd.0xarchit.is-a.dev&style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=html5)](https://focusd.0xarchit.is-a.dev/){target="_blank"}  
+![Stars](https://img.shields.io/github/stars/0xarchit/focusd?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github&color=yellow) ![Downloads](https://img.shields.io/github/downloads/0xarchit/focusd/total?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github&color=orange) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/focusd?style=for-the-badge&logoColor=white&labelColor=000000&color=000000&logo=github&color=blue)
 
-**:icon-mark-github: GitHub:** [https://github.com/0xarchit/Focusd](https://github.com/0xarchit/Focusd){target="_blank"}  
-**:icon-globe: Live Project:** [https://focusd.0xarchit.is-a.dev](https://focusd.0xarchit.is-a.dev){target="_blank"}
+:icon-mark-github: **GitHub:** [0xarchit/Focusd](https://github.com/0xarchit/Focusd){target="_blank"}
+:icon-globe: **Live Project:** [focusd.0xarchit.is-a.dev](https://focusd.0xarchit.is-a.dev){target="_blank"}
 
 ## :icon-rocket: Why Focusd? {#why-focusd}
 

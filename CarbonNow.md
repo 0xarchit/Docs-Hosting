@@ -8,11 +8,11 @@ tags: [FastAPI, Python, Carbon, API, Docker]
 
 # :icon-image: Carbon Code Image Generator
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![License](https://img.shields.io/github/license/0xarchit/carbon-now-sh-api?style=flat-square)    
-![Stars](https://img.shields.io/github/stars/0xarchit/carbon-now-sh-api?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/carbon-now-sh-api?style=flat-square) ![Forks](https://img.shields.io/github/forks/0xarchit/carbon-now-sh-api?style=flat-square) [![Website](https://img.shields.io/website?url=https://zeroxcarbon.onrender.com/docs&style=flat-square)](https://zeroxcarbon.onrender.com/docs){target="_blank"}
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=000000&color=000000) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=000000&color=000000) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=000000&color=000000) ![License](https://img.shields.io/github/license/0xarchit/carbon-now-sh-api?style=for-the-badge&logoColor=white&labelColor=000000&color=000000)    
+![Stars](https://img.shields.io/github/stars/0xarchit/carbon-now-sh-api?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Repo Size](https://img.shields.io/github/repo-size/0xarchit/carbon-now-sh-api?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) ![Forks](https://img.shields.io/github/forks/0xarchit/carbon-now-sh-api?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000) [![Website](https://img.shields.io/website?url=https://zeroxcarbon.onrender.com/docs&style=for-the-badge&logo=html5&logoColor=white&labelColor=000000&color=000000)](https://zeroxcarbon.onrender.com/docs){target="_blank"}
 
 
-:icon-mark-github: **Github**: [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}  
+:icon-mark-github: **GitHub:** [0xarchit/carbon-now-sh-api](https://github.com/0xarchit/carbon-now-sh-api){target="_blank"}  
 :icon-globe: **Live Demo**: [https://zeroxcarbon.onrender.com/docs](https://zeroxcarbon.onrender.com/docs){target="_blank"}
 
 
