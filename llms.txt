@@ -1,0 +1,29 @@
+﻿#  | 0xArchit Projects Documentation
+
+> Technical documentation, project guides, and research by 0xArchit
+
+- [ Welcome to 0xArchit Documentation](https://docs.0xarchit.is-a.dev/index.md):  Welcome to 0xArchit Documentation
+- [Fake News Detector](https://docs.0xarchit.is-a.dev/fakenews.md): Comprehensive overview of the AI-powered Fake News Detector project architecture, components, and implementation details.
+- [LearnTrack](https://docs.0xarchit.is-a.dev/learntrack.md): Complete documentation for the LearnTrack learning management system with role-based access, course management, and analytics.
+- [ Auto-Scrolling Webpage Capture to PDF](https://docs.0xarchit.is-a.dev/scroll2pdf.md): Auto-Scrolling Webpage Capture to PDF with PyQt6
+- [ CodeArc: Programming‑Centric AI Chatbot Companion](https://docs.0xarchit.is-a.dev/codearc.md): Programming‑centric AI chatbot companion for web and mobile with local storage, custom API keys, and Gemini‑powered intelligence.
+- [ ArcArcGo: DuckDuckGo Proxy with Custom Branding](https://docs.0xarchit.is-a.dev/arcarcgo.md): Cloudflare Worker that acts as a transparent proxy for DuckDuckGo with custom branding, URL rewriting, and JavaScript injection capabilities.
+- [ Carbon Code Image Generator](https://docs.0xarchit.is-a.dev/carbonnow.md): FastAPI service that generates beautiful code images using Carbon.now.sh with customizable styling and JPG output.
+- [ Automated Meme Generation System](https://docs.0xarchit.is-a.dev/instagramaiagent.md): Complete AI-powered automation system that generates programming memes and posts them to Instagram automatically using n8n workflows and Carbon API.
+- [ AI Teaching Assistant System](https://docs.0xarchit.is-a.dev/aiclassroomassistant.md): Web-based teaching assistant with real-time emotion detection, voice-to-text, AI processing, and text-to-voice capabilities.
+- [ Web Scraper Collection](https://docs.0xarchit.is-a.dev/webscraper.md): A collection of web scrapers: a Python-based DuckDuckGo Lite scraper and a Cloudflare Worker Jina AI & Groq LLM scraper.
+- [GitHub Profile Analyzer](https://docs.0xarchit.is-a.dev/githubprofileanalyser.md): Comprehensive GitHub profile analysis tool with AI-powered scoring, real-time metrics, and exportable reports.
+- [ArcNews](https://docs.0xarchit.is-a.dev/arcnews.md): Modular, production-style news dashboard using React, Cloudflare Workers (D1), FastAPI, and Node.js (Puppeteer) with summaries and bookmarks.
+- [RAG Projects: ChatDoc + AI/ML/GenAI Mentor Chatbot](https://docs.0xarchit.is-a.dev/ragchatdoc.md): Two RAG projects: ChatDoc (FastAPI + React + Milvus + Mistral) and an AI/ML/GenAI Mentor Chatbot (Gradio + LangChain + ChromaDB + Gemini). Unified page with separate sections.
+- [AnyWhere Chatbot — Chatty](https://docs.0xarchit.is-a.dev/chatty.md): Drop-in JS widget that adds a floating, context-aware chatbot to any website. Customizable theme, branding, system prompt, and page context capture.
+- [AlgorithmAce: AI-Powered LeetCode Companion ](https://docs.0xarchit.is-a.dev/algorithmace.md): AI-powered LeetCode companion Chrome extension with AI explanations, friend comparisons, notifications, and GitHub star gating.
+- [BYOK Chat Platform (Next.js)](https://docs.0xarchit.is-a.dev/byokchat.md): Versatile Next.js chat platform with multi-provider AI support, context management, and beautiful animated UI powered by ReactBits.
+- [ Global Search Visualizer](https://docs.0xarchit.is-a.dev/globalsearchvisualizer.md): Multi-region search result screenshot tool with automated browser automation, proxy-based geolocation, and professional React dashboard.
+- [ Secure FTP Explorer](https://docs.0xarchit.is-a.dev/ftpexplorer.md): Modern, secure, and responsive web-based FTP client built with PHP featuring AES-256 encryption and multi-server management.
+- [ AI Health - Smart Nutrition Analysis](https://docs.0xarchit.is-a.dev/aihealth.md): Secure nutrition analysis application leveraging Google Gemini API for calorie tracking and 3D body visualization.
+- [ AI-Powered Bill Sentiment Analysis](https://docs.0xarchit.is-a.dev/billssentiments.md): AI-powered dashboard for analyzing public sentiment on draft legislations using NLP, RAG, and Milvus.
+- [ 0xDABmusic](https://docs.0xarchit.is-a.dev/0xdabmusic.md): High-performance native music player built with Go and Wails, featuring 320kbps streaming, lyrics sync, and Spotify integration.
+- [ Focusd](https://docs.0xarchit.is-a.dev/focusd.md): Privacy-first digital wellbeing and screen time tracker for Windows. No cloud, no telemetry.
+- [CityTrack](https://docs.0xarchit.is-a.dev/citytrack.md): Autonomous, event-driven operating system for smart cities with AI agents for urban infrastructure maintenance.
+- [ApiCortex](https://docs.0xarchit.is-a.dev/apicortex.md): Autonomous API failure prediction and contract testing SaaS platform with ML-powered analytics.
+- [Grafyx](https://docs.0xarchit.is-a.dev/grafyx.md): High-performance CLI-driven code knowledge graph tool for visualizing codebase relationships with D3.js.
